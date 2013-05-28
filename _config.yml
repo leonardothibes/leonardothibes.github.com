@@ -1,8 +1,3 @@
-source: false
-auto  : true
-server: true
-port  : 4000
-
 source     : .
 destination: ./_site
 plugins    : ./_plugins
@@ -11,4 +6,4 @@ future   : true
 lsi      : false
 pygments : true
 markdown : maruku
-permalink: date
+permalink: /:title.html
