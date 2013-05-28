@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="posts">
+    <header>
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.date | date: "%d %b %y" }}</h3>
+    </header>
+    
+    <div class="post-content">
+    {{ content }}
+    </div>
+</div>
+
+<div id="disqus_thread"></div>
+<noscript>Por favor, habilite o javascript para ver os comentários</noscript>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname  = 'leonardothibesblog'; // required: replace example with your forum shortname
+    var disqus_identifier = "{{ page.id | replace:'/','-' }}";
+    var disqus_url        = "http://blog.leonardothibes.com{{ page.url }}";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
