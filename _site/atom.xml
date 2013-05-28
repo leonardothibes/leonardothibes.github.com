@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>/dev/null</title>
+ <link href="http://blog.leonardothibes.com/atom.xml" rel="self"/>
+ <link href="http://blog.leonardothibes.com/"/>
+ <updated>2013-05-28T11:58:25-03:00</updated>
+ <id>http://blog.leonardothibes.com/</id>
+ <author>
+   <name>Leonardo Thibes</name>
+   <email>eu@leonardothibes.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>My First Post</title>
+   <link href="http://blog.leonardothibes.com/desenvolvimento/2013/05/28/first-post.html"/>
+   <updated>2013-05-28T00:00:00-03:00</updated>
+   <id>http://blog.leonardothibes.com/desenvolvimento/2013/05/28/first-post</id>
+   <content type="html">&lt;h2 id='my_first_post'&gt;My First Post&lt;/h2&gt;
+
+&lt;p&gt;This is my first blog post.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
