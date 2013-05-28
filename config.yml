@@ -4,3 +4,18 @@
 :header_color: aaa
 :name: leonardothibes.github.com
 :theme: plain
+
+source:         false
+auto:           true
+server:         true
+server_port:    4000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    maruku
+permalink:   date
