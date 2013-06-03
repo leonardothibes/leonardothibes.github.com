@@ -16,3 +16,11 @@ author:
         twitter  : leonardothibes
         facebook : leonardothibes
         github   : leonardothibes
+
+sites-we-watch:
+    - url: "http://efetividade.net"
+    - url: "http://br-linux.org"
+    - url: "http://br-mac.org"
+    - url: "http://macmagazine.com.br"
+    - url: "http://itechhoje.com.br"
+    - url: "http://carreirasolo.org"
