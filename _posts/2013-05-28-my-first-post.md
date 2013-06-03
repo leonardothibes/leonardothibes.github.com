@@ -2,7 +2,6 @@
 layout  : post
 title   : My First Post
 category: dummy
-author  : me
 ---
 
 Hello World!
