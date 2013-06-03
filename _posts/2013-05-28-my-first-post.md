@@ -1,6 +1,8 @@
 ---
-layout: post
-title: My First Post
+layout  : post
+title   : My First Post
+category: dummy
+author  : Leonardo Thibes
 ---
 
 Hello World!

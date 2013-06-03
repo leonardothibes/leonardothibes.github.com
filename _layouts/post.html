@@ -1,16 +1,33 @@
 ---
 layout: default
 ---
-<div class="posts">
-    <header>
-        <h2>{{ page.title }}</h2>
-        <h3>{{ page.date | date: "%d %b %y" }}</h3>
-    </header>
-    
-    <div class="post-content">
-    {{ content }}
-    </div>
+
+<!-- BLOG POST -->
+<div class="post single">
+	
+	<!-- TITLE -->
+	<h1>{{ page.title }}</h1>
+	
+	<!-- META -->
+	<ul class="meta">
+		<li>Por <a href="#">{{ page.author }}</a>&nbsp;</li>
+		<li> em {{ page.date | date: "%d %b %Y" }} &nbsp;</li>
+	</ul>
+	<!-- ENDS META -->
+	
+	<!-- IMAGE -->
+	<div class="feature-image">
+		<img src="/public/img/posts/{{ page.id | replace:'/','' }}.jpg" alt="{{ page.title }}" />
+	</div>
+	<!-- ENDS IMAGE -->
+	
+	<div class="the-content">
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+	</div>
+	
 </div>
+<!-- BLOG POST -->
 
 <div id="disqus_thread"></div>
 <noscript>Por favor, habilite o javascript para ver os comentários</noscript>
