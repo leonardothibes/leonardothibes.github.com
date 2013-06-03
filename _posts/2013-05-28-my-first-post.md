@@ -2,7 +2,7 @@
 layout  : post
 title   : My First Post
 category: dummy
-author  : Leonardo Thibes
+author  : me
 ---
 
 Hello World!
