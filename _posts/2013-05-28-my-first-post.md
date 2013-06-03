@@ -2,10 +2,8 @@
 layout  : post
 title   : My First Post
 category: dummy
+image   : my-first-post.jpg
 ---
-
-Hello World!
-------------
 
 This is my first blog post.
 

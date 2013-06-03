@@ -13,9 +13,7 @@ layout: default
 	<!-- ENDS META -->
 	
 	<!-- IMAGE -->
-	<div class="feature-image">
-		<img src="/public/img/posts/{{ page.id | replace:'/','' }}.jpg" alt="{{ page.title }}" />
-	</div>
+	{% include post-image.html %}
 	<!-- ENDS IMAGE -->
 	
 	<!-- TEXT -->
@@ -25,22 +23,7 @@ layout: default
 	<!-- ENDS TEXT -->
 	
 	<!-- CATEGORIES -->
-	<ul class="tags">
-		<li>Categorias: </li>
-		<li><a href="#">Web design</a></li>
-		<li><a href="#">Code</a></li>
-		<li><a href="#">Photo</a></li>
-		<li><a href="#">Clothing</a></li>
-		<li><a href="#">Video</a></li>
-		<li><a href="#">Web design</a></li>
-		<li><a href="#">Code</a></li>
-		<li><a href="#">Photo</a></li>
-		<li><a href="#">Clothing</a></li>
-		<li><a href="#">Video</a></li><li>
-		<li><a href="#">Code</a></li>
-		<li><a href="#">Photo</a></li>
-		<li><a href="#">Video</a></li><li>
-	</ul>
+	{% include post-categories.html %}
 	<!-- ENDS CATEGORIES -->
 	
 </div>

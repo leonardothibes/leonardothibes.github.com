@@ -8,6 +8,9 @@ pygments : true
 markdown : maruku
 permalink: /:title.html
 
+post:
+    img-dir: /public/img/posts
+
 author:
     me:
         name     : Leonardo Thibes
