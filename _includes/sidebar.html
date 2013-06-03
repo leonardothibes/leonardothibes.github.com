@@ -1,48 +1,15 @@
 <div id="sidebar">
 	
 	<!-- LOGO -->
-	<a href="index.html"><img src="img/logo.png" alt="Left template" id="logo" /></a>
+	{% include logo.html %}
+	<!-- LOGO -->
 				
 	<!-- SEARCH -->
 	{% include search.html %}
 	<!-- ENDS SEARCH -->
 				
 	<!-- Navigation -->
-	<ul id="nav" class="sf-menu sf-vertical">
-		<li><a href="index.html">HOME</a></li>
-		<li class="current-menu-item"><a href="features.html">FEATURES</a>
-			<ul>
-				<li><a href="features.html">Columns layout</a>
-				<li><a href="features-typography.html">Typography</a>
-				<li><a href="features-icons.html">General icons</a>
-				<li><a href="features-social-icons.html">Social icons</a>
-				<li><a href="features-accordion.html">Accordion boxes</a>
-				<li><a href="features-toggle.html">Toggle boxes</a>
-				<li><a href="features-tabs.html">Tabbed content</a>
-			</ul>
-		</li>
-		<li><a href="skins.html">SKINS</a></li>
-		<li><a href="gallery.html">GALLERY</a>
-			<ul>
-				<li><a href="gallery.html">Image gallery</a>
-					<ul>
-						<li><a href="gallery.html">Two columns layout</a></li>
-						<li><a href="gallery-fourcols.html">Four columns layout</a></li>
-					</ul>
-				</li>
-				<li><a href="gallery-video.html">Video gallery</a></li>
-			</ul>
-		</li>
-		<li><a href="blog.html">BLOG</a>
-			<ul>
-				<li><a href="blog.html">Full blog</a></li>
-				<li><a href="blog-compact.html">Compact blog</a></li>
-			</ul>
-		</li>
-		<li><a href="portfolio.html">PORTFOLIO</a></li>
-		<li><a href="contact.html">CONTACT</a></li>
-		<li><a href="http://luiszuno.com/blog/downloads/left-template">DOWNLOAD NOW!</a></li>
-	</ul>
+	{% include navigation.html %}
 	<!-- Navigation -->	
 			
 	<!-- CATEGORIES -->
