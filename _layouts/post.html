@@ -9,16 +9,7 @@ layout: default
 	<h1>{{ page.title }}</h1>
 	
 	<!-- META -->
-	{% if page.author %}
-		{% assign author = site.author[page.author] %}
-	{% else %}
-		{% assign author = site.author["me"] %}
-	{% endif %}
-	
-	<ul class="meta">
-		<li>Por <a href="/sobre.html"><u>{{ author.name }}</u></a>&nbsp;</li>
-		<li> em {{ page.date | date: "%d %b %Y" }} &nbsp;</li>
-	</ul>
+	{% include post-meta.html %}
 	<!-- ENDS META -->
 	
 	<!-- IMAGE -->
