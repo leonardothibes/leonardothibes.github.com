@@ -1,14 +1,14 @@
-/*
-	Version 1.2
-*/
+/**
+ * Version 1.2
+ */
 
 /* IMPORTS ------------------------------------------------------------*/
 
-@import url('reset.css');
+@import url('/public/css/reset.css');
 
-@import url('typography.css');
+@import url('/public/css/typography.css');
 
-@import url('styled-elements.css');
+@import url('/public/css/styled-elements.css');
 
 
 /* HACKS ------------------------------------------------------------*/
@@ -31,7 +31,7 @@ body {}
 .home-quotes{
 	margin: 43px 43px 43px 30px;
 	padding-left: 30px;
-	background: url(../img/quotes.png) no-repeat 0px 0px;
+	background: url(/public/img/quotes.png) no-repeat 0px 0px;
 }
 
 h1.header-line,
@@ -42,7 +42,7 @@ h1.header-line,
  h6.header-line{
 	padding-bottom: 21px;
 	margin-bottom: 11px;
-	background: url(../img/line-divider.png) repeat-x bottom center;
+	background: url(/public/img/line-divider.png) repeat-x bottom center;
 }
 
 /* WRAPPER ------------------------------------------------------------*/
@@ -109,7 +109,7 @@ h1.header-line,
 	padding: 0px 10px;
 	margin: 0px;
 	border: 0;
-	background: url(../img/search-bg.png) no-repeat transparent 0px 0px;
+	background: url(/public/img/search-bg.png) no-repeat transparent 0px 0px;
 }
 
 #sidebar #searchform #searchsubmit{
@@ -119,7 +119,7 @@ h1.header-line,
 	width: 34px;
 	height: 26px;
 	border: 0px;
-	background: url(../img/search-submit.png) no-repeat  transparent 0px 0px;
+	background: url(/public/img/search-submit.png) no-repeat  transparent 0px 0px;
 }
 
 #sidebar #searchform #searchsubmit:hover{
@@ -139,7 +139,7 @@ h1.header-line,
 #sidebar #nav>li{
 	display: block;
 	height: 40px;
-	background: url(../img/nav-item.png) no-repeat transparent;
+	background: url(/public/img/nav-item.png) no-repeat transparent;
 	border-top: 1px solid #636363;
 	border-bottom: 1px solid #373737;
 }
@@ -195,7 +195,7 @@ h1.header-line,
 	width: 95px;
 	margin-right: 17px;
 	padding-left: 5px;
-	background: url(../img/sidebar-line-divider.png) repeat-x bottom center;
+	background: url(/public/img/sidebar-line-divider.png) repeat-x bottom center;
 	float: left;
 }
 
@@ -271,7 +271,7 @@ h1.header-line,
 /* BLOG ------------------------------------------------------------*/
 
 .post{
-	background: url(../img/post-divider.png) no-repeat bottom center;
+	background: url(/public/img/post-divider.png) no-repeat bottom center;
 	padding-bottom: 30px;
 	margin-top: 20px;
 }
@@ -317,7 +317,7 @@ h1.header-line,
 /* BLOG COMPACT ------------------------------------------------------------*/
 
 .post.compact{
-	background: url(../img/post-divider.png) no-repeat bottom center;
+	background: url(/public/img/post-divider.png) no-repeat bottom center;
 	padding-bottom: 20px;
 	margin-top: 30px;
 }
@@ -378,7 +378,7 @@ h1.header-line,
 	float: left;
 	width: 36px;
 	height: 30px;
-	background: url(../img/comments-balloon.png) no-repeat;
+	background: url(/public/img/comments-balloon.png) no-repeat;
 }
 
 .comments-list li{
@@ -514,18 +514,18 @@ h1.header-line,
 /* FILTER ------------------------------------------------------------*/
 
 .filter-top{
-	background: url(../img/filterbar-top.png) no-repeat;
+	background: url(/public/img/filterbar-top.png) no-repeat;
 	width: 594px;
 	height: 25px;
 }
 
 .filter-main{
-	background: url(../img/filterbar.png) repeat-y;
+	background: url(/public/img/filterbar.png) repeat-y;
 	width: 594px;
 }
 
 .filter-bottom{
-	background: url(../img/filterbar-bottom.png) no-repeat;
+	background: url(/public/img/filterbar-bottom.png) no-repeat;
 	width: 594px;
 	height: 25px;
 }
@@ -693,12 +693,12 @@ h1.header-line,
 	right: -20px;
 	width: 46px;
 	height: 46px;
-	background: url(../img/plus-button.png) no-repeat;
+	background: url(/public/img/plus-button.png) no-repeat;
 	z-index: 3;
 }
 
 .gallery-thumbs.video li span{
-	background: url(../img/play-button.png) no-repeat;
+	background: url(/public/img/play-button.png) no-repeat;
 }
 
 .gallery-thumbs li .boxgrid .box-content{
@@ -746,7 +746,7 @@ h1.header-line,
 	height: 44px;
 	margin-left: 5px;
 	float: left;
-	background: url(../img/pager.png) no-repeat -58px 0px;
+	background: url(/public/img/pager.png) no-repeat -58px 0px;
 }
 
 .pager li a{
@@ -851,10 +851,7 @@ h1.header-line,
 #footer-bottom #bottom-right{
 	display: block;
 	float: right;
-	background: url(../img/to-top-arrow.png) no-repeat right 5px ;
+	background: url(/public/img/to-top-arrow.png) no-repeat right 5px ;
 	padding-right: 20px;
 	cursor: pointer;
 }
-
-
-
