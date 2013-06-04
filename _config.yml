@@ -7,6 +7,7 @@ lsi      : false
 pygments : true
 markdown : maruku
 permalink: /:title.html
+paginate : 5
 
 post:
     img-dir: /public/img/posts
