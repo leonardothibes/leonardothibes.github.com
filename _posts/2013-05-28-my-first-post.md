@@ -1,7 +1,7 @@
 ---
 layout  : post
 title   : My First Post
-category: dummy
+category: [php desenvolvimento ubuntu mac]
 image   : my-first-post.jpg
 ---
 
