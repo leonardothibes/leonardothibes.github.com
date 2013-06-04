@@ -6,5 +6,9 @@
 
 <ul class="meta">
 	<li>Por <a href="/sobre.html"><u>{{ author.name }}</u></a>&nbsp;</li>
-	<li> em {{ page.date | date: "%d %b %Y" }} &nbsp;</li>
+	{% if post.date != nil %}
+		<li> em {{ post.date | date: "%d %b %Y" }} &nbsp;</li>
+	{% else %}
+		<li> em {{ page.date | date: "%d %b %Y" }} &nbsp;</li>
+	{% endif %}
 </ul>
