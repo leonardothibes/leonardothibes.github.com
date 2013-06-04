@@ -8,10 +8,7 @@
 			<ul id="footer-cols">
 				
 				<!-- ABOUT -->
-				<li class="col clear-col">
-					<h6>About the theme</h6>
-					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-				</li>
+				{% include footer-about.html %}
 				<!-- ABOUT -->
 				
 				<!-- SITES WE WATCH -->
@@ -19,29 +16,14 @@
 				<!-- ENDS SITES WE WATCH -->
 				
 				<!-- FLICKR -->
-				<li class="col">
-					<h6>Flickr stream</h6>
-					<ul id="flickr-stream" class="thumbs">
-					</ul>
-				</li>
+				{% include footer-flickr.html %}
 				<!-- ENDS FLICKR -->
 			
 			</ul>
 			<!-- ENDS FOOTER-COLS -->
 			
 			<!-- FOOTER-BOTTOM -->
-			<div id="footer-bottom">
-				<div id="bottom-left">
-					&copy;&nbsp;{{ site.author["me"].name }}&nbsp;&lt;
-					{% assign year = site.time | date: "%Y" %}
-					{% if year != "2013" %} 
-						2013-{{ year }}
-					{% else %}
-						2013
-					{% endif %}&gt;
-				</div>
-				<div id="bottom-right">To top</div>
-			</div>
+			{% include footer-botom.html %}
 			<!-- ENDS FOOTER-BOTTOM -->
 			
 		</div>
