@@ -14,7 +14,8 @@ $(document).ready(function() {
 	$('.accordion-trigger').click(function(){
 		if( $(this).next().is(':hidden') ) { 
 			$('.accordion-trigger').removeClass('active').next().slideUp();
-			$(this).toggleClass('active').next().slideDown();		}
+			$(this).toggleClass('active').next().slideDown();
+		}
 		return false;
 	});
 	
@@ -64,10 +65,10 @@ $(document).ready(function() {
 		
 	// Tweet
 	$(".tweet").tweet({
-        username: "leonardothibes",
+        username: $('#config-tweets-username').val(),
         join_text: "auto",
         avatar_size: 32,
-        count: 4,
+        count: $('#config-tweets-limit').val(),
         auto_join_text_default: "we said,",
         auto_join_text_ed: "we",
         auto_join_text_ing: "we were",

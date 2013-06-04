@@ -12,6 +12,10 @@ paginate : 5
 post:
     img-dir: /public/img/posts
 
+last-tweets:
+    username: leonardothibes
+    limit   : 5
+
 author:
     me:
         name     : Leonardo Thibes

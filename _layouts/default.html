@@ -1,28 +1,33 @@
 {% include header.html %}
-		
+	
+	<!-- HIDDEN CONFIG -->
+	<input type="hidden" id="config-tweets-username" value="{{ site.last-tweets.username }}" />
+	<input type="hidden" id="config-tweets-limit" value="{{ site.last-tweets.limit }}" />
+	<!-- ENDS HIDDEN CONFIG -->
+	
 	<!-- WRAPPER -->
 	<div id="wrapper">
-	
+		
 		<!-- SIDEBAR -->
 		{% include sidebar.html %}
 		<!-- ENDS SIDEBAR -->
 		
 		<!-- MAIN -->
 		<div id="main">
-
+			
 			<!-- TITLE + BREADCRUMB-->
 			{% include breadcrumb.html %}
 			<!-- ENDS TITLE + BREADCRUMB-->
 			
 			<!-- CONTENT -->
 			<div id="content">
-						
+				
 				<!-- PAGE CONTENT -->
 				<div id="page-content">
 					{{ content }}
 				</div>
 				<!-- ENDS PAGE-CONTENT -->
-			
+				
 			</div>
 			<!-- ENDS CONTENT -->
 			
