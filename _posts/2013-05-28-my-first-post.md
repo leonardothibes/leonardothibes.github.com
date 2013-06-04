@@ -1,8 +1,8 @@
 ---
-layout  : post
-title   : My First Post
-category: [php desenvolvimento ubuntu mac]
-image   : my-first-post.jpg
+layout    : post
+title     : My First Post
+categories: [php, desenvolvimento, ubuntu, mac]
+image     : my-first-post.jpg
 ---
 
 This is my first blog post.

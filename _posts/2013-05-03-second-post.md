@@ -1,6 +1,7 @@
 ---
-layout: post
-title: My Second Post
+layout    : post
+title     : My Second Post
+categories: [ruby, rails, jekyll]
 ---
 
 Hello World!
