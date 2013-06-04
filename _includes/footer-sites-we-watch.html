@@ -2,7 +2,7 @@
 	<h6>Sites que acompanho</h6>
 	<ul>
 		{% for site in site.sites-we-watch %}
-			<li><a href="{{ site.url }}" target="_blank">{{ site.url }}</a></li>
+			<li><a href="{{ site.url }}" target="_blank">{{ site.url | replace: 'http://', '' }}</a></li>
 		{% endfor %}
 	</ul>
 </li>
