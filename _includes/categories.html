@@ -1,11 +1,10 @@
 <ul class="cat-list">
-	<li><h6>Categories</h6></li>
-	<li><a href="#" title="View posts">Design (11)</a></li>
-	<li><a href="#" title="View all posts">Web (6)</a></li> 
-	<li><a href="#" title="View all posts">Photo (3)</a></li>
-	<li><a href="#" title="View all posts">Coding (16)</a></li>
-	<li><a href="#" title="View all posts">Design (41)</a></li>
-	<li><a href="#" title="View all posts">Web (6)</a></li> 
-	<li><a href="#" title="View all posts">Photo (5)</a></li> 
-	<li><a href="#" title="View all posts">Coding (23)</a></li>
+	<li><h6>Categorias</h6></li>
+	{% for category in site.categories %}
+		<li>
+			<a href="#" title="Veja os posts da categoria {{ category[0] }}">
+				{{ category[0] | truncate: 13 }} ({{ category[1] | size }})
+			</a>
+		</li>
+	{% endfor %}
 </ul>
