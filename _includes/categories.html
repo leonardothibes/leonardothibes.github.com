@@ -2,7 +2,7 @@
 	<li><h6>Categorias</h6></li>
 	{% for category in site.categories %}
 		<li>
-			<a href="/categoria/{{ category[0] }}" title="Veja os posts da categoria {{ category[0] }}">
+			<a href="/?categoria={{ category[0] }}" title="Veja os posts da categoria {{ category[0] }}">
 				{{ category[0] | truncate: 13 }} ({{ category[1] | size }})
 			</a>
 		</li>
