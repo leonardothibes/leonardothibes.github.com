@@ -68,6 +68,30 @@ portfolio-list:
                 habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
                 et netus et malesuada fames, Pellentesque habitant morbi fames.
+    bau:
+        name  : Site Baú da Felicidade
+        client: Baú da Felicidade
+        cdesc : Um empresa do Grupo Sílvio Santos
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
+    jacotei:
+        name  : Site Já Cotei - Cotação e Comparação de Preços
+        client: DND
+        cdesc : Desenvolvimento de Negócios Digitais
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
+    jacotei-promocoes:
+        name  : Já Cotei - Sistema de Gerenciamento de Promoções
+        client: DND
+        cdesc : Desenvolvimento de Negócios Digitais
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
 
 sites-we-watch:
     - url: "http://macmagazine.com.br"
