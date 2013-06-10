@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : My Second Post
-categories: [ruby, rails, jekyll]
+categories: jekyll
 ---
 
 This is my second blog post.
