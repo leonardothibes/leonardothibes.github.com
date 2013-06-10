@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : Isso é outro teste!!!
-categories: [teste, jekyll, mac, iphone, ipad, linux]
+categories: [jekyll, mac, ios, iphone, ipad, linux]
 ---
 
 Appropriately seize innovative channels with seamless methods of empowerment. Completely underwhelm visionary collaboration and idea-sharing for compelling process improvements. Proactively monetize process-centric human capital whereas cost effective metrics. 
