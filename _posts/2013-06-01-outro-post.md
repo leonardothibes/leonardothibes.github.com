@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: [linux, php]
 ---
 
 Conveniently provide access to plug-and-play quality vectors whereas diverse solutions. Progressively cultivate leveraged applications through e-business e-business. Synergistically restore distinctive processes and extensive opportunities. 

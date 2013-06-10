@@ -4,29 +4,7 @@ title : Blog
 ---
 
 {% for post in paginator.posts %}
-	<div class="post">
-		
-		<!-- POST TITLE -->
-		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		
-		<!-- META -->
-		{% include post-meta.html %}
-		<!-- ENDS META -->
-		
-		<!-- IMAGE -->
-		{% include blog-image.html %}
-		<!-- ENDS IMAGE -->
-		
-		<!-- POST EXCERPT -->
-		<div class="the-excerpt">
-			{{ post.content | truncate:250 | textilize }}
-		</div>
-		<!-- ENDS POST EXCERPT -->
-		
-		<!-- READ MORE LINK -->
-		<a href="{{ post.url }}" class="link-button"><span>Leia mais &rarr;</span></a>
-		
-	</div>
+	{% include blog-list-posts.html %}
 {% endfor %}
 
 <!-- PAGINATION -->
