@@ -3,6 +3,12 @@
 	<div id="breadcrumbs">
 		Você está aqui:
 		<a title="Home" href="/">Home</a> &raquo;
-		<a title="{{ page.title }}" href="{{ page.url }}">{{ page.title }}</a>
+		<a title="{{ page.title }}" href="{{ page.url }}">
+			{% if page.category %}
+				{{ page.category }}
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+		</a>
 	</div>
 </div>
