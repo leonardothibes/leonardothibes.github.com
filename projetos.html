@@ -20,7 +20,7 @@ title : Projetos
 				<div class="right-content">
 					<strong>{{ site.projects-list[project.id].name }}</strong><br/>
 					{{ site.projects-list[project.id].desc }}
-					<a href="/projeto/{{ project.id }}.html" class="link-arrow">Saiba mais &#8594;</a>
+					<a href="{{ site.projects-list[project.id].link }}" class="link-arrow" target="_blank">Saiba mais &#8594;</a>
 				</div>
 			</li>
 		{% endfor %}

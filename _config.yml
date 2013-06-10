@@ -33,12 +33,15 @@ projects-list:
     fakeseguro:
         name: Fake Seguro
         desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL.
+        link: https://github.com/leonardothibes/fakeseguro
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
+        link: https://github.com/leonardothibes/puppet-web
     puppet-workstation:
         name: Puppet Workstation
         desc: Estação de trabalho para desenvolvimento web em PHP.
+        link: https://github.com/leonardothibes/puppet-workstation
 
 sites-we-watch:
     - url: "http://macmagazine.com.br"
