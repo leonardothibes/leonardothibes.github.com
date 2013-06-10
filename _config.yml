@@ -32,7 +32,8 @@ projects:
 projects-list:
     fakeseguro:
         name: Fake Seguro
-        desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL.
+        desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL. 
+              Ainda em estágio embrionário.
         link: https://github.com/leonardothibes/fakeseguro
     puppet-web:
         name: Puppet Web
