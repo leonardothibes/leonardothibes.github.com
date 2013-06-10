@@ -44,6 +44,31 @@ projects-list:
         desc: Estação de trabalho para desenvolvimento web em PHP.
         link: https://github.com/leonardothibes/puppet-workstation
 
+portfolio:
+    - id: telesena
+    - id: lidercap
+    - id: bau
+    - id: jacotei
+    - id: jacotei-promocoes
+
+portfolio-list:
+    telesena:
+        name  : Site Tele Sena
+        client: Liderança Capitalização
+        cdesc : Um empresa do Grupo Sílvio Santos
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
+    lidercap:
+        name  : Site Liderança Capitalização
+        client: Liderança Capitalização
+        cdesc : Um empresa do Grupo Sílvio Santos
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
+
 sites-we-watch:
     - url: "http://macmagazine.com.br"
     - url: "http://br-linux.org"

@@ -1,0 +1,13 @@
+---
+layout: default
+title : Portfolio
+---
+
+<!-- TITLE -->
+<h4>Meu Portfolio</h4>
+
+<!-- PORTFOLIO -->
+{% for portfolio in site.portfolio %}
+	{% include portfolio-entry.html %}
+{% endfor %}
+<!-- ENDS PORTFOLIO -->
