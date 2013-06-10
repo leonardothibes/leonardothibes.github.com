@@ -1,0 +1,32 @@
+---
+layout: default
+title : Projetos
+---
+
+<!-- PROJECTS -->
+<div class="related-projects">
+	
+	<!-- TITLE -->
+	<h4>Meus Projetos</h4>
+	
+	<!-- LIST -->
+	<ul class="related-projects-list">
+		
+		{% for project in site.projects %}
+			<li>
+				<div class="clip-related">
+					<img class="cover" src="/public/img/projects/{{ project.id }}/thumb.png" alt="" />
+				</div>
+				<div class="right-content">
+					<strong>{{ site.projects-list[project.id].name }}</strong><br/>
+					{{ site.projects-list[project.id].desc }}
+					<a href="/projeto/{{ project.id }}.html" class="link-arrow">Saiba mais &#8594;</a>
+				</div>
+			</li>
+		{% endfor %}
+		
+	</ul>
+	<!-- ENDS LIST -->
+	
+</div>
+<!-- ENDS PROJECTS -->

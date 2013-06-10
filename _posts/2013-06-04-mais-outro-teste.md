@@ -24,4 +24,4 @@ Dynamically deploy corporate customer service with out-of-the-box internal or "o
 
 Holisticly recaptiualize distributed collaboration and idea-sharing for flexible systems. Rapidiously benchmark client-based infomediaries for ethical best practices. Seamlessly productize cross-unit technology before 24/365 networks. 
 
-Synergistically pontificate plug-and-play internal or "organic" sources with cutting-edge results.
+Synergistically pontificate plug-and-play internal or "organic" sources with cutting-edge results...

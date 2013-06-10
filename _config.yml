@@ -24,6 +24,22 @@ author:
         youtube  : lthibes
         linkedin : leonardo-castilhos-thibes/29/a0/33b
 
+projects:
+    - id: fakeseguro
+    - id: puppet-web
+    - id: puppet-workstation
+
+projects-list:
+    fakeseguro:
+        name: Fake Seguro
+        desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL.
+    puppet-web:
+        name: Puppet Web
+        desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
+    puppet-workstation:
+        name: Puppet Workstation
+        desc: Estação de trabalho para desenvolvimento web em PHP.
+
 sites-we-watch:
     - url: "http://macmagazine.com.br"
     - url: "http://br-linux.org"
