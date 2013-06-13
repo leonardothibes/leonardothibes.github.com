@@ -53,6 +53,7 @@ portfolio:
 
 portfolio-list:
     telesena:
+        url   : http://www.telesena.com.br
         name  : Site Tele Sena
         client: Liderança Capitalização
         cdesc : Um empresa do Grupo Sílvio Santos
@@ -61,6 +62,7 @@ portfolio-list:
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
                 et netus et malesuada fames, Pellentesque habitant morbi fames.
     lidercap:
+        url   : http://www.lidercap.com.br
         name  : Site Liderança Capitalização
         client: Liderança Capitalização
         cdesc : Um empresa do Grupo Sílvio Santos
@@ -69,6 +71,7 @@ portfolio-list:
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
                 et netus et malesuada fames, Pellentesque habitant morbi fames.
     bau:
+        url   : http://www.bau.com.br
         name  : Site Baú da Felicidade
         client: Baú da Felicidade
         cdesc : Um empresa do Grupo Sílvio Santos
@@ -77,6 +80,7 @@ portfolio-list:
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
                 et netus et malesuada fames, Pellentesque habitant morbi fames.
     jacotei:
+        url   : http://www.bau.com.br
         name  : Site Já Cotei - Cotação e Comparação de Preços
         client: DND
         cdesc : Desenvolvimento de Negócios Digitais
@@ -84,10 +88,11 @@ portfolio-list:
                 habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
                 et netus et malesuada fames, Pellentesque habitant morbi fames.
-    jacotei-promocoes:
-        name  : Já Cotei - Sistema de Gerenciamento de Promoções
-        client: DND
-        cdesc : Desenvolvimento de Negócios Digitais
+    epoc-events:
+        url   : http://www.oztechnology.com.br/produtos/e-poc-events
+        name  : E-POC Events - Sistema de gerenciamento de casas noturnas e raves
+        client: OZ Technology
+        cdesc : Softwares de gestão para eventos
         text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
                 habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
