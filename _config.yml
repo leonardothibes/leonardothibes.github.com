@@ -41,14 +41,14 @@ projects:
         desc: Estação de trabalho para desenvolvimento web em PHP.
         link: https://github.com/leonardothibes/puppet-workstation#readme
 
-portfolio:
+portfolio-list:
     - id: telesena
     - id: lidercap
     - id: bau
     - id: jacotei
     - id: epoc-events
 
-portfolio-list:
+portfolio:
     telesena:
         url   : http://www.telesena.com.br
         name  : Site Tele Sena
