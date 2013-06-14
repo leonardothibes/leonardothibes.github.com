@@ -23,9 +23,9 @@ author:
 
 projects-list:
     - id: fakeseguro
+    - id: zf
     - id: puppet-web
     - id: puppet-workstation
-    - id: zf
 
 projects:
     fakeseguro:
@@ -33,6 +33,12 @@ projects:
         desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL. 
               Ainda em estágio embrionário.
         link: https://github.com/leonardothibes/fakeseguro#readme
+    zf:
+        name: Esqueleto de projeto em Zend Framework
+        desc: Um projeto básico implementado em PHP5 e Zend Framework já configurado 
+              para as minhas necessidades mais comuns, e contendo as bibliotecas que
+              mais uso no dia-a-dia.
+        link: https://github.com/leonardothibes/zf#readme
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
@@ -41,12 +47,6 @@ projects:
         name: Puppet Workstation
         desc: Estação de trabalho para desenvolvimento web em PHP.
         link: https://github.com/leonardothibes/puppet-workstation#readme
-    zf:
-        name: Esqueleto de projeto em Zend Framework
-        desc: Um projeto básico implementado em PHP5 e Zend Framework já configurado 
-              para as minhas necessidades mais comuns, e contendo as bibliotecas que
-              mais uso no dia-a-dia.
-        link: https://github.com/leonardothibes/zf#readme
 
 portfolio-list:
     - id: telesena
