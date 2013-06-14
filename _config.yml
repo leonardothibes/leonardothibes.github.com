@@ -25,6 +25,7 @@ projects-list:
     - id: fakeseguro
     - id: puppet-web
     - id: puppet-workstation
+    - id: zf
 
 projects:
     fakeseguro:
@@ -40,6 +41,11 @@ projects:
         name: Puppet Workstation
         desc: Estação de trabalho para desenvolvimento web em PHP.
         link: https://github.com/leonardothibes/puppet-workstation#readme
+    zf:
+        name: Esqueleto de projeto em Zend Framework
+        desc: Um projeto básico implementado em PHP5 e Zend Framework já configurado 
+              para as minhas necessidades mais comuns. 
+        link: https://github.com/leonardothibes/zf
 
 portfolio-list:
     - id: telesena
