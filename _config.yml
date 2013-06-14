@@ -21,25 +21,25 @@ author:
         youtube  : lthibes
         linkedin : leonardo-castilhos-thibes/29/a0/33b
 
-projects:
+projects-list:
     - id: fakeseguro
     - id: puppet-web
     - id: puppet-workstation
 
-projects-list:
+projects:
     fakeseguro:
         name: Fake Seguro
         desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL. 
               Ainda em estágio embrionário.
-        link: https://github.com/leonardothibes/fakeseguro
+        link: https://github.com/leonardothibes/fakeseguro#readme
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
-        link: https://github.com/leonardothibes/puppet-web
+        link: https://github.com/leonardothibes/puppet-web#readme
     puppet-workstation:
         name: Puppet Workstation
         desc: Estação de trabalho para desenvolvimento web em PHP.
-        link: https://github.com/leonardothibes/puppet-workstation
+        link: https://github.com/leonardothibes/puppet-workstation#readme
 
 portfolio:
     - id: telesena
