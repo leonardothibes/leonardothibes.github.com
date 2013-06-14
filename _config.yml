@@ -47,6 +47,7 @@ portfolio-list:
     - id: bau
     - id: jacotei
     - id: epoc-events
+    - id: fmc-arquitetura
 
 portfolio:
     telesena:
@@ -90,6 +91,15 @@ portfolio:
         name  : E-POC Events - Sistema de gerenciamento de casas noturnas e raves
         client: OZ Technology
         cdesc : Softwares de gestão para eventos
+        text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
+                habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
+                tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames, Pellentesque habitant morbi fames.
+    fmc-arquitetura:
+        link  : http://www.fmc-arquitetura.com.br
+        name  : Site FMC Arquitetura
+        client: FMC Arquitetura
+        cdesc : Ferrés, Milani & Campanhã
         text  : Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque 
                 habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi 
                 tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus 
