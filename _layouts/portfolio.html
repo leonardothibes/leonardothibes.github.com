@@ -6,7 +6,7 @@ layout: default
 <div class="post single portfolio">
 	
 	<!-- TITLE -->
-	<h4>Project name</h4>
+	<h4>{{ site.portfolio[page.id].name }}</h4>
 	
 	<!-- META -->
 	<ul class="meta">
@@ -16,7 +16,7 @@ layout: default
 	<!-- ENDS META -->
 	
 	<!-- IMAGE -->
-	{% include portfolio-image.html %}
+	{% include portfolio/image.html %}
 	<!-- ENDS IMAGE -->
 	
 	<!-- THE TEXT -->
