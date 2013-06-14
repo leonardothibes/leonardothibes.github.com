@@ -10,13 +10,9 @@
 	<div class="the-excerpt">
 		<h1><a href="/portfolio/{{ entry.id }}.html">{{ site.portfolio[entry.id].name }}</a></h1>
 		
-		<!-- meta -->
-		<ul class="meta">
-			<li>By <a href="#">Ansimuz</a>&nbsp;</li> 
-			<li> on Dec 27th 2010 &nbsp;</li>
-			<li> with 47 comments &nbsp;</li>
-		</ul>
-		<!-- ENDS meta -->
+		<!-- META -->
+		{% include portfolio/meta.html %}
+		<!-- ENDS META -->
 		
 		Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus et netus et malesuada fames Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque habitant morbi tristique senectus et netus et malesuada fames, Pellentesque habitant morbi fames.
 		<a href="/portfolio/{{ entry.id }}.html" class="link-button"><span>Saiba mais &rarr;</span></a>
