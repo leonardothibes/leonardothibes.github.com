@@ -10,9 +10,6 @@ permalink: /:title.html
 paginate : 5
 tweets   : 5
 
-post:
-    img-dir: /public/img/posts
-
 author:
     me:
         name     : Leonardo Thibes
