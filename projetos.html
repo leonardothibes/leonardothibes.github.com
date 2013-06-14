@@ -15,7 +15,7 @@ title : Projetos
 		{% for project in site.projects-list %}
 			<li>
 				<div class="clip-related">
-					<img class="cover" src="/public/img/projects/{{ project.id }}.png" alt="" />
+					<img class="cover" src="/public/img/projects/{{ project.id }}.png" width="116" height="116" alt="{{ project.id }}.png" />
 				</div>
 				<div class="right-content">
 					<strong>{{ site.projects[project.id].name }}</strong><br/>
