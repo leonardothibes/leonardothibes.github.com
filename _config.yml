@@ -44,8 +44,9 @@ projects:
     zf:
         name: Esqueleto de projeto em Zend Framework
         desc: Um projeto básico implementado em PHP5 e Zend Framework já configurado 
-              para as minhas necessidades mais comuns. 
-        link: https://github.com/leonardothibes/zf
+              para as minhas necessidades mais comuns, e contendo as bibliotecas que
+              mais uso no dia-a-dia.
+        link: https://github.com/leonardothibes/zf#readme
 
 portfolio-list:
     - id: telesena
