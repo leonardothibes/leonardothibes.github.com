@@ -1,15 +1,20 @@
+{% if page.gallery != nil %}
 <h4>Capturas de tela</h4>
 <ul class="gallery-thumbs fourcols portfolio" >
 	
+	{% for gallery in page.gallery %}
 	<li>
 		<span></span>
-		<a class="fancybox boxgrid" href="img/dummies/116x116.jpg" title="The road" >
-			<img class="cover" src="img/dummies/116x116.jpg" alt="The Road" title="The Road"/>
+		<a class="fancybox boxgrid" href="/public/img/portfolio/{{ page.id }}/{{ gallery.img }}.png" title="{{ gallery.img }}" >
+			<img class="cover" src="/public/img/portfolio/{{ page.id }}/{{ gallery.img }}-thumb.png" alt="{{ gallery.img }}.png" title="{{ gallery.img }}"/>
 			<div class="box-content">
-				<em>Lorem Ipsum  </em>
-				Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+				<em>{{ gallery.img }}:</em>
+				{{ page.gallery-desc[gallery.img] }}
 			</div>
 		</a>
 	</li>
+	{% endfor %}
 	
 </ul>
+<p align="right"><a href="{{ site.portfolio[page.id].link }}" target="_blank" class="link-button"><span>Visite o site &rarr;</span></a></p>
+{% endif %}
