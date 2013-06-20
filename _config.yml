@@ -24,6 +24,7 @@ author:
 projects-list:
     - id: fakeseguro
     - id: zf
+    - id: php-skel
     - id: puppet-web
     - id: puppet-workstation
 
@@ -39,6 +40,11 @@ projects:
               para as minhas necessidades mais comuns, e contendo as bibliotecas que
               mais uso no dia-a-dia.
         link: https://github.com/leonardothibes/zf#readme
+    php-skel:
+        name: PHP-Skel
+        desc: Um esqueleto projeto implementado em PHP5 já configurado com testes(PHPUnit) e
+              integração contínua+deploy(Phing).
+        link: https://github.com/leonardothibes/php-skel#readme
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
