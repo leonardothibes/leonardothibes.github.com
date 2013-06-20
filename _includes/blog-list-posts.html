@@ -13,7 +13,11 @@
 	
 	<!-- POST EXCERPT -->
 	<div class="the-excerpt">
-		{{ post.content | truncate:250 | textilize }}
+		{% if post.intro != nil %}
+			{{ post.intro }}
+		{% else %}
+			{{ post.content | truncate:250 | textilize }}
+		{% endif %}
 	</div>
 	<!-- ENDS POST EXCERPT -->
 	
