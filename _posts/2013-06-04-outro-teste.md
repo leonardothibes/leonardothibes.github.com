@@ -66,7 +66,7 @@ Dynamically deploy corporate customer service with out-of-the-box internal or "o
 {% highlight php %}
 <?php
     echo "oi";
->
+?>
 {% endhighlight %}
 
 Holisticly recaptiualize distributed collaboration and idea-sharing for flexible systems. Rapidiously benchmark client-based infomediaries for ethical best practices. Seamlessly productize cross-unit technology before 24/365 networks. 
