@@ -42,7 +42,7 @@ projects:
         link: https://github.com/leonardothibes/zf#readme
     php-skel:
         name: PHP-Skel
-        desc: Um esqueleto projeto implementado em PHP5 já configurado com testes(PHPUnit),
+        desc: Um esqueleto projeto implementado em PHP5 já configurado com testes unitários(PHPUnit),
               verificação de padrão de código(Code-Sniffer) e integração contínua+deploy(Phing).
         link: https://github.com/leonardothibes/php-skel#readme
     puppet-web:
