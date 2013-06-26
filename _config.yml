@@ -32,7 +32,7 @@ projects:
     fakeseguro:
         name: Fake Seguro
         desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL. 
-              Ainda em estágio embrionário.
+              Ainda em estágio embrionário, mas funcional.
         link: https://github.com/leonardothibes/fakeseguro#readme
     zf:
         name: Esqueleto de projeto em Zend Framework
@@ -42,7 +42,7 @@ projects:
         link: https://github.com/leonardothibes/zf#readme
     php-skel:
         name: PHP-Skel
-        desc: Um esqueleto projeto implementado em PHP5 já configurado com testes unitários(PHPUnit),
+        desc: Um esqueleto projeto implementado em PHP5.3 já configurado com testes unitários(PHPUnit),
               verificação de padrão de código(Code-Sniffer) e integração contínua+deploy(Phing).
         link: https://github.com/leonardothibes/php-skel#readme
     puppet-web:
