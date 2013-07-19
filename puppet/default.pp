@@ -1,5 +1,5 @@
 class env {
-	file {"/home/vagrant/workspace":
+	file {"/home/vagrant/blog":
 		ensure => link,
 		target => "/vagrant",
 	}
@@ -29,32 +29,28 @@ class vim {
 
 class jekyll {
     $packages = [
-		'whois',
-		'lynx',
-		'elinks',
-		'telnet',
 		'wget',
 		'curl',
 		'tar',
 		'zip',
 		'unzip',
 		'bzip2',
-		'traceroute',
-		'tcpdump',
-		'iptraf',
-		'nmap',
-		'less',
-		'dnsutils',
-		'ccze',
 		'git',
 		'build-essential',
 	]
 	package {$packages: ensure  => installed}
 	package {"tzdata" : ensure  => latest   }
 	
-	exec {["gem install jekyll" , "gem install RedCloth"]:
-		path    => "/usr/bin",
-		require => Package[$packages],
+	exec {"gem install jekyll":
+		path      => ["/opt/vagrant_ruby/bin", "/usr/bin"],
+		require   => Package[$packages],
+		logoutput => true,
+	}
+
+	exec {"gem install RedCloth":
+		path      => ["/opt/vagrant_ruby/bin", "/usr/bin"],
+		require   => Package[$packages],
+		logoutput => true,
 	}
 }
 
