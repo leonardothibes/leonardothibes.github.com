@@ -38,10 +38,7 @@ title : Contato
 		</div>
 		
 		<!-- send mail configuration -->
-		<input type="hidden" value="luis@luiszuno.com" name="to" id="to" />
-		<input type="hidden" value="youremail@luiszuno.com" name="from" id="from" />
-		<input type="hidden" value="From torn wordpress online" name="subject" id="subject" />
-		<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+		<input type="hidden" value="{{ site.contact }}" name="sendMailUrl" id="sendMailUrl" />
 		<!-- ENDS send mail configuration -->
 		
 		<p><input type="button" value="Enviar" name="submit" id="submit" /></p>

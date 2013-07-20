@@ -49,7 +49,7 @@ $(document).ready(function() {
 		var subject = $('#subject').val();
 		
 		// data string
-		var dataString = 'name='       + name
+		var dataString =  'name='      + name
 						+ '&email='    + email        
 						+ '&web='      + web
 						+ '&comments=' + comments
