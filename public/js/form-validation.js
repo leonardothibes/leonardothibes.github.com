@@ -50,12 +50,12 @@ $(document).ready(function() {
 		
 		// data string
 		var dataString =  'name='      + name
-						+ '&email='    + email        
+						+ '&email='    + email
 						+ '&web='      + web
 						+ '&comments=' + comments
 						+ '&to='       + to
 						+ '&from='     + from
-						+ '&subject='  + subject;						         
+						+ '&subject='  + subject;
 		// ajax
 		$.ajax({
 			type   : 'POST',
