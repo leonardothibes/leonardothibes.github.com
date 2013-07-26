@@ -49,13 +49,13 @@ $(document).ready(function() {
 		var subject = $('#subject').val();
 		
 		// data string
-		var dataString = 'name='       + name
-						+ '&email='    + email        
+		var dataString =  'name='      + name
+						+ '&email='    + email
 						+ '&web='      + web
 						+ '&comments=' + comments
 						+ '&to='       + to
 						+ '&from='     + from
-						+ '&subject='  + subject;						         
+						+ '&subject='  + subject;
 		// ajax
 		$.ajax({
 			type   : 'POST',
