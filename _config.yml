@@ -42,8 +42,9 @@ projects:
         link: https://github.com/leonardothibes/zf#readme
     php-skel:
         name: PHP-Skel
-        desc: Um esqueleto projeto implementado em PHP5.3 já configurado com testes unitários(PHPUnit),
-              verificação de padrão de código(Code-Sniffer) e integração contínua+deploy(Phing).
+        desc: Um esqueleto projeto implementado em PHP5.3 já configurado com testes 
+              unitários(PHPUnit), documentação de classes(phpDocumentor), verificação 
+              de padrão de código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
         link: https://github.com/leonardothibes/php-skel#readme
     puppet-web:
         name: Puppet Web
