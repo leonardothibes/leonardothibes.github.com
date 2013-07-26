@@ -35,27 +35,27 @@ projects:
         name: Fake Seguro
         desc: Gateway de pagamento para testes de integração com o PagSeguro do UOL. 
               Ainda em estágio embrionário, mas funcional.
-        link: https://documentup.com/leonardothibes/fakeseguro
+        link: http://documentup.com/leonardothibes/fakeseguro
     zf:
         name: Esqueleto de projeto em Zend Framework
         desc: Um projeto básico implementado em PHP5 e Zend Framework já configurado 
               para as minhas necessidades mais comuns, e contendo as bibliotecas que
               mais uso no dia-a-dia.
-        link: https://documentup.com/leonardothibes/zf
+        link: http://documentup.com/leonardothibes/zf
     php-skel:
         name: PHP-Skel
         desc: Um esqueleto projeto implementado em PHP5.3 já configurado com testes 
               unitários(PHPUnit), documentação de classes(phpDocumentor), verificação 
               de padrão de código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
-        link: https://documentup.com/leonardothibes/php-skel
+        link: http://documentup.com/leonardothibes/php-skel
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
-        link: https://documentup.com/leonardothibes/puppet-web
+        link: http://documentup.com/leonardothibes/puppet-web
     puppet-workstation:
         name: Puppet Workstation
         desc: Estação de trabalho para desenvolvimento web em PHP.
-        link: https://documentup.com/leonardothibes/puppet-workstation
+        link: http://documentup.com/leonardothibes/puppet-workstation
 
 portfolio-list:
     - id: telesena
