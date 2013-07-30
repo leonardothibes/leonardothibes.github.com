@@ -27,6 +27,7 @@ projects-list:
     - id: fakeseguro
     - id: zf
     - id: php-skel
+    - id: Tbs
     - id: puppet-web
     - id: puppet-workstation
 
@@ -48,8 +49,8 @@ projects:
               unitários(PHPUnit), documentação de classes(phpDocumentor), verificação 
               de padrão de código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
         link: http://documentup.com/leonardothibes/php-skel
-    Tbs Bundle:
-        name: Tbs
+    Tbs:
+        name: Tbs-Bundle
         desc: Um conjunto de componentes utilitários compatível com PHP >= 5.3.
               Ainda em estágio embrionário.
         link: http://documentup.com/leonardothibes/Tbs
