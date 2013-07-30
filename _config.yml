@@ -48,9 +48,10 @@ projects:
               unitários(PHPUnit), documentação de classes(phpDocumentor), verificação 
               de padrão de código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
         link: http://documentup.com/leonardothibes/php-skel
-    Tbs Bundle Component Library:
+    Tbs Bundle:
         name: Tbs
-        desc: Um conjunto de componentes utilitários compatível com PHP >= 5.3
+        desc: Um conjunto de componentes utilitários compatível com PHP >= 5.3.
+              Ainda em estágio embrionário.
         link: http://documentup.com/leonardothibes/Tbs
     puppet-web:
         name: Puppet Web
