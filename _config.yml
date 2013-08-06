@@ -29,7 +29,6 @@ projects-list:
     - id: php-skel
     - id: Tbs
     - id: puppet-web
-    - id: puppet-workstation
 
 projects:
     fakeseguro:
@@ -51,17 +50,13 @@ projects:
         link: http://documentup.com/leonardothibes/php-skel
     Tbs:
         name: Tbs-Bundle
-        desc: Um conjunto de componentes utilitários compatível com PHP >= 5.3.
-              Ainda em estágio embrionário.
+        desc: Um conjunto de componentes utilitários que uso em meus projetos.
+              Compatível com PHP 5.3/5.4/5.5.
         link: http://documentup.com/leonardothibes/Tbs
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
         link: http://documentup.com/leonardothibes/puppet-web
-    puppet-workstation:
-        name: Puppet Workstation
-        desc: Estação de trabalho para desenvolvimento web em PHP.
-        link: http://documentup.com/leonardothibes/puppet-workstation
 
 portfolio-list:
     - id: telesena
