@@ -44,9 +44,10 @@ projects:
         link: http://documentup.com/leonardothibes/zf
     php-skel:
         name: PHP-Skel
-        desc: Um esqueleto projeto implementado em PHP5.3 já configurado com testes 
-              unitários(PHPUnit), documentação de classes(phpDocumentor), verificação 
-              de padrão de código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
+        desc: Um esqueleto projeto PHP já configurado com testes unitários(PHPUnit), 
+              documentação de classes(phpDocumentor), verificação de padrão de 
+              código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
+              Compatível com PHP 5.3/5.4/5.5.
         link: http://documentup.com/leonardothibes/php-skel
     Tbs:
         name: Tbs-Bundle
