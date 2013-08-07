@@ -27,8 +27,9 @@ projects-list:
     - id: fakeseguro
     - id: zf
     - id: php-skel
-    - id: Tbs
+    - id: tbs
     - id: puppet-web
+    - id: webconfig
 
 projects:
     fakeseguro:
@@ -49,7 +50,7 @@ projects:
               código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
               Compatível com PHP 5.3/5.4/5.5.
         link: http://documentup.com/leonardothibes/php-skel
-    Tbs:
+    tbs:
         name: Tbs-Bundle
         desc: Um conjunto de componentes utilitários que uso em meus projetos.
               Compatível com PHP 5.3/5.4/5.5.
@@ -58,6 +59,10 @@ projects:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
         link: http://documentup.com/leonardothibes/puppet-web
+    webconfig:
+        name: Webconfig
+        desc: Utilitário de linha de comando para gerenciar o Apache sem ter que editar os arquivos
+        link: http://documentup.com/leonardothibes/webconfig
 
 portfolio-list:
     - id: telesena
