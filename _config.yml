@@ -61,7 +61,8 @@ projects:
         link: http://documentup.com/leonardothibes/puppet-web
     webconfig:
         name: Webconfig
-        desc: Utilitário de linha de comando para gerenciar o Apache sem ter que editar os arquivos
+        desc: Utilitário de linha de comando para gerenciar o Apache sem ter que 
+              editar os arquivos de configuração manualmente.
         link: http://documentup.com/leonardothibes/webconfig
 
 portfolio-list:
