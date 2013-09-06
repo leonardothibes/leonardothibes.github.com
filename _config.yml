@@ -30,6 +30,7 @@ projects-list:
     - id: tbs
     - id: puppet-web
     - id: webconfig
+    - id: jdaemon
 
 projects:
     fakeseguro:
@@ -64,6 +65,11 @@ projects:
         desc: Utilitário de linha de comando para gerenciar o Apache sem ter que 
               editar os arquivos de configuração manualmente.
         link: http://documentup.com/leonardothibes/webconfig
+    jdaemon:
+        name: jDaemon
+        desc: Plugin de jQuery para monitorar uma url e acionar um evento.
+              Muito útil para fazer notificações no estilo do Facebook.
+        link: http://documentup.com/leonardothibes/jDaemon
 
 portfolio-list:
     - id: telesena
