@@ -28,9 +28,10 @@ projects-list:
     - id: zf
     - id: php-skel
     - id: tbs
+    - id: models
+    - id: jdaemon
     - id: puppet-web
     - id: webconfig
-    - id: jdaemon
 
 projects:
     fakeseguro:
@@ -56,6 +57,16 @@ projects:
         desc: Um conjunto de componentes utilitários que uso em meus projetos.
               Compatível com PHP 5.3/5.4/5.5.
         link: http://documentup.com/leonardothibes/Tbs
+    models:
+        name: Models
+        desc: Estrutura inicial para começar a desenvolver models em um projeto PHP.
+              Independe de Framework, é compatível com PHP 5.3/5.4/5.5 e PSR0.
+        link: http://documentup.com/leonardothibes/Models
+    jdaemon:
+        name: jDaemon
+        desc: Plugin de jQuery para monitorar uma url e acionar um evento.
+              Muito útil para fazer notificações no estilo do Facebook.
+        link: http://documentup.com/leonardothibes/jDaemon
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
@@ -65,11 +76,6 @@ projects:
         desc: Utilitário de linha de comando para gerenciar o Apache sem ter que 
               editar os arquivos de configuração manualmente.
         link: http://documentup.com/leonardothibes/webconfig
-    jdaemon:
-        name: jDaemon
-        desc: Plugin de jQuery para monitorar uma url e acionar um evento.
-              Muito útil para fazer notificações no estilo do Facebook.
-        link: http://documentup.com/leonardothibes/jDaemon
 
 portfolio-list:
     - id: telesena
