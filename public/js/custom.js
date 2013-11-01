@@ -64,7 +64,7 @@ $(document).ready(function() {
 	});
 		
 	// Tweet
-	$(".tweet").tweet({
+	/*$(".tweet").tweet({
         username: $('#config-tweets-username').val(),
         join_text: "auto",
         avatar_size: 32,
@@ -75,7 +75,7 @@ $(document).ready(function() {
         auto_join_text_reply: "we replied to",
         auto_join_text_url: "we were checking out",
         loading_text: "loading tweets..."
-    });
+    });*/
     
     // Poshytips
     $('.social a, .blocks-gallery a, .poshy img, .poshytip').poshytip({
