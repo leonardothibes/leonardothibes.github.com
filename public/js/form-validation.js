@@ -1,75 +1,77 @@
-$(document).ready(function() {
-
-	// hide messages 
-	$('#error').hide();
-	$('#success').hide();
+var formValidation =
+{
+	init: function()
+	{
+		//Hide messages 
+		$("#error").hide();
+		$("#success").hide();
+		
+		//Submit Click
+		$('#submit').live('click', function() {
+			formValidation.submit();
+		});
+	},
 	
-	// focus on name
-	$('#name').focus();
+	submit: function()
+	{
+		//Name
+		var name = $("input#name").val();
+		if(name == ""){
+			$("#error").fadeIn().text("Name required.");
+			$("input#name").focus();
+			return false;
+		}
+		
+		//E-mail
+		var email = $("input#email").val();
+		if(email == ""){
+			$("#error").fadeIn().text("Email required");
+			$("input#email").focus();
+			return false;
+		}
+		
+		//Web
+		var web = $("input#web").val();
+		if(web == ""){
+			$("#error").fadeIn().text("Web required");
+			$("input#web").focus();
+			return false;
+		}
+		
+		//Comments
+		var comments = $("#comments").val();
+		
+		//Send
+		formValidation.send(name, email, web, comments);
+	},
 	
-	// on submit...
-	$('#contactForm #submit').click(function() {
+	send: function(name, email, web, comments)
+	{
+		//Send Mail Url
+		var sendMailUrl = $("#sendMailUrl").val();
 		
-		// hiding the error container.
-		$('#error').hide();
-		
-		// name
-		var name = $('input#name').val();
-		if(name == '') {
-			$('#error').fadeIn().text('O nome é obrigatório');
-			$('input#name').focus();
-			return false;
-		}
-		
-		// email
-		var email = $('input#email').val();
-		if(email == '') {
-			$('#error').fadeIn().text('O e-mail é obrigatório');
-			$('input#email').focus();
-			return false;
-		}
-		
-		// web
-		var web = $('input#web').val();
-		
-		// comments
-		var comments = $('#comments').val();
-		if(comments == '') {
-			$('#error').fadeIn().text('O texto é obrigatório');
-			$('#comments').focus();
-			return false;
-		}
-		
-		// send mail
-		var sendMailUrl = $('#sendMailUrl').val();
-		
-		//to, from & subject
-		var to      = $('#to').val();
-		var from    = $('#from').val();
-		var subject = $('#subject').val();
-		
-		// data string
-		var dataString =  'name='      + name
+		//Data String
+		var dataString = 'name='       + name
 						+ '&email='    + email
 						+ '&web='      + web
-						+ '&comments=' + comments
-						+ '&to='       + to
-						+ '&from='     + from
-						+ '&subject='  + subject;
-		// ajax
+						+ '&comments=' + comments;
+		
+		//Send
 		$.ajax({
-			type   : 'POST',
+			type   : 'get',
 			url    : sendMailUrl,
 			data   : dataString,
-			success: success()
+			success: formValidation.success()
 		});
-	});	
-		
-	// on success...
-	function success() {
-		$('#success').fadeIn();
-	 	$('#contactForm').fadeOut();
-	}
+	},
 	
-    return false;
+	success: function()
+	{
+		$("#success").fadeIn();
+	 	$("#contactForm").fadeOut();
+	}
+}
+
+$(document).ready(function() {
+	formValidation.init();
 });

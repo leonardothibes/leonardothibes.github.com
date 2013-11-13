@@ -8,8 +8,7 @@ pygments : true
 markdown : maruku
 permalink: /:title.html
 paginate : 5
-#contact  : http://leonardothibes.com/blog/contact
-contact  : http://localhost:8080/blog/contact
+send-mail: http://leonardothibes.com/send-mail.php
 
 author:
     me:
