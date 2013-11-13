@@ -106,20 +106,20 @@ div.toggle-container .block p{
 .highlight-blue,
 .highlight-green {
 	background: #160805;
-	padding:2px 5px;
+	padding: 2px 5px;
 }
 
-.highlight-red{ 
+.highlight-red {
 	background: red;
 	color:#fff;
 }
 
-.highlight-blue{
+.highlight-blue {
 	background: blue;
 	color:#fff;
 }
 
-.highlight-green{
+.highlight-green {
 	background: green;
 	color:#fff;
 }
