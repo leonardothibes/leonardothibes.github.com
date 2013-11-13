@@ -34,7 +34,7 @@
 <tr>
 	<td>type</td>
 	<td>id=comments</td>
-	<td>oi</td>
+	<td>Isso é um comentário de teste!!!</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -51,7 +51,6 @@
 	<td>id=success</td>
 	<td>Obrigado pelo contato.</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
