@@ -61,7 +61,7 @@ nos incentivou a usar o [Github](http://gihub.com). Eu até já conhecia o site,
 mas ele era baseado em GIT. Só recentemente eu descobri que é possível usar um repositório do Github como se fosse repositório
 SVN. Nem sei quando implementaram este recurso, mas isso já é outra história.
  
-Enfim, alguns alunos fizeramse cadastraram no Github e começaram a compartilhar seus códigos uns com os outros a 
+Enfim, alguns alunos se cadastraram no Github e começaram a compartilhar seus códigos uns com os outros a 
 partir de lá. Havia uma pequena parcela de espíritos de porco que eram resistentes a mudanças e torceram o nariz. Eu
 estava entre eles.
 
