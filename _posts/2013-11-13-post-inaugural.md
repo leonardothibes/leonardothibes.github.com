@@ -94,10 +94,9 @@ Segue abaixo uma lista do que eu usei para criar este site.
 O Template: Left
 ----------------
 
-Como descrevi no início do meu texto, fiquei durante meses vasculhando os mais varados sites de templates em
-busco do template "perfeito" para o meu site pessoal. Mas eu nunca conseguia me decidir pois eu ainda não tinha
-escolhido qual ferramenta de CMS usar. Não adiantava escolher um template legal do Drupal, se eu fosse usar Wordpress.
-E vice-versa.
+Fiquei durante meses vasculhando os mais varados sites de templates em busca do template "perfeito" para o meu 
+site pessoal. Mas eu nunca conseguia me decidir pois eu ainda não tinha escolhido qual ferramenta de CMS usar. 
+Não adiantava escolher um template legal do Drupal, se eu fosse usar Wordpress. E vice-versa.
 
 Só então quando eu decidi dar uma chance ao Github Pages(descrito logo abaixo) que comecei a procurar templates em
 HTML puro. Me deparei com o site do [Luiz Zuno](http://luiszuno.com). Lá entrei muitos templates animais, e acabei
