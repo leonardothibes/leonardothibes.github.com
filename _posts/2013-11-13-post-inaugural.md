@@ -49,7 +49,7 @@ Agora Falando Sério
 
 É claro que o texto que escrevi acima é uma brincadeira, apesar de já ter refletido a minha real opinião em um passado 
 não muito distante. Mas, se até a direção das tempestades muda, se até as placas tectônicas da Terra se movem, por que
-eu não poderia mudar de opinião.
+eu não poderia mudar de opinião?
 
 Na presente data já fazem quase 3 anos e meio que comprei este domínio e só o usava para e-mails. Não tinha nem mesmo
 uma página de "site em contrução" no ar quando se tentava acessar [http://leonardothibes.com](http://leonardothibes.com). E
