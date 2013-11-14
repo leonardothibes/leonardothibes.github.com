@@ -28,7 +28,7 @@ Ainda no ano de 2010 eu resolvi dar uma olhadda nos blogs de alguns programadore
 e palestras costumo acompanhar. Foram muitos os blogs que eu visitei, mas o que me chamou mais atenção 
 foi o blog do Augusto Pascutti, em especial este [POST](http://blog.augustopascutti.com/curiosidades/2010/11/23/novo-blog.html).
 Lembro que, na época, foi o que achei mais feio e com tecnologia mais tosca. Lembro-me que pensei: "em 2010, páginas estáticas
-em HTML?!?!?!?".
+em HTML?!?!?!? ECA!!!".
 
 Não mesmo, eu queria mesmo era um CMS "de verdade", onde eu poderia escrever meus posts
 em um painel bonitão, com editor Wysiwyg, plugins legais que faziam coisas que eu não precisava e, o melhor, uma base
@@ -39,7 +39,7 @@ Sim, o parágrafo anterior é pra fazer rir mesmo.
 A idéia de usar um controle de versão para controlar os posts não me pareceu ruim, mas na época eu usava
 Subversion e torcia o nariz tanto para o GIT quanto para o [Github](http://github.com). Até cheguei a procurei
 alguma alternativa que fizesse o mesmo, mas usando o Subversion como controle de versões. Com uma rápida pesquisa
-no Google encontrei uma porrada de gambiarras que na época me pareceram uma boas idéias. Salvei todas no meu Evernote
+no Google encontrei uma porrada de gambiarras que na época me pareceram boas idéias. Salvei todas no meu Evernote
 para então testar e, quem sabe, escrever posts sobre as mesmas no futuro blog.  
 
 Este último parágrafo também era pra rir um pouco.
