@@ -199,3 +199,5 @@ mais, o backup fica por conta do Github. Eu não tenho que me preocupar com muit
 
 Fique a vontade para visitar o [repositório](https://github.com/leonardothibes/leonardothibes.github.com) 
 que hospeda este site e ver como ele foi feito, fazer um fork ou criar seu próprio blog ;-)
+
+Até mais!
