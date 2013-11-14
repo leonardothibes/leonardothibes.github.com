@@ -135,7 +135,7 @@ Para escrever posts eu posso até mesmo usar o VIM, depois é só fazer um commi
 isto é publicado no site. Nada de gerenciar conta de hospedagem, versão do PHP(ou seja lá da linguagem que for), gerir 
 backup do MySQL nem nada do gênero.
 
-Basta escrever um post em HTML, Markdown ou Textile e fazer um commit. Só isto.
+Basta escrever um post em HTML, Markdown ou Textile e fazer um commit. Só isso.
 
 Os detalhes de como criar um site no Github Pages eu tratarei em um post contendo o passo-a-passo. Inclusive,
 este tema é um excelente canditado a ser o segundo post do meu blog ;-)
