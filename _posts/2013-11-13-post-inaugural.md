@@ -129,9 +129,11 @@ páginas. Isto acaba por unir o melhor dos dois mundos: a estabilidade e leveza 
 servidor ficar gerando-as em tempo de execussão para servílas, com a agilidade e praticidade de um site dinâmico.
 
 E no final das contas, usar um controle de versões para gerir os posts de um blog realmente era uma boa idéia desde o início, 
-eu é que fui cabeça dura e quiz nadar contra a maré. Para escrever posts eu posso até mesmo usar o VIM, depois é só
-fazer um commit e um push no git que, automagicamente, isto é publicado no site. Nada de gerenciar conta de hospedagem,
-versão do PHP(ou seja lá da linguagem que for), gerir backup do MySQL nem nada do gênero.
+eu é que fui cabeça dura e quiz nadar contra a maré. 
+
+Para escrever posts eu posso até mesmo usar o VIM, depois é só fazer um commit e um push no git que, automagicamente, 
+isto é publicado no site. Nada de gerenciar conta de hospedagem, versão do PHP(ou seja lá da linguagem que for), gerir 
+backup do MySQL nem nada do gênero.
 
 Basta escrever um post em HTML, Markdown ou Textile e fazer um commit. Só isto.
 
