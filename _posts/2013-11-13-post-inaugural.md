@@ -65,7 +65,7 @@ Enfim, alguns alunos se cadastraram no Github e começaram a compartilhar seus c
 partir de lá. Havia uma pequena parcela de espíritos de porco que eram resistentes a mudanças e torceram o nariz. Eu
 estava entre eles.
 
-Até criquei um cadastro no Github para "reservar" meu nick [leonardothibes](http://gihub.com/leonardothibes),
+Até criei um cadastro no Github para "reservar" meu nick [leonardothibes](http://gihub.com/leonardothibes),
 mas não quiz saber do Github, nem do Git, e muito menos de qualquer outro controle de versão. Mas chega um 
 momento da vida onde esse tipo de frescura e resistência a mudanças não tem mais espaço. Ou aprendemos isso 
 ou então ficamos para trás na vida. Não só profissionalmente, mas em todos os aspectos.
