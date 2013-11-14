@@ -170,10 +170,10 @@ Comentários: Disqus
 
 Como o site é um "pseudo dinâmico", que no final gera páginas estáticas em HTML, não seria possível implementar uma
 solução de comentários nativa no Jekyll. Aliás, o Jekyll tem um bom suporte a plugins, mas não quando hospedado no
-Github Pages. Lá a execussão de plugins é desabilitada, mas como é de graça pra hospedar, então é uma limitação
+Github Pages. Lá a execussão de plugins é desabilitada. Mas como é de graça pra hospedar, então é uma limitação
 suportável se levar em conta os benefícios que são oferecidos.
 
-Adotei então como solução para os comentários do site uma ferramente gratiuta chamada [Disqus](http://disqus.com).
+Adotei então como solução para os comentários do site uma ferramente gratuita chamada [Disqus](http://disqus.com).
 Sua integração com qualquer site é super simples. Suporta desde o HTML puro(o caso deste site) até CMSs como Wordpress,
 Joomla, Drupal, Tumblr e [tantos outros](http://disqus.com/websites).
 
