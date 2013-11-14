@@ -190,7 +190,7 @@ Como puderam ver, a combinação de **Github/Jekyll** + **controle de versão(gi
 rendem um solução rápida, estável e flexível para se fazer um site. Mas confesso que no início torci o nariz para 
 estas tecnologias todas. Ainda mais por eu ser um programador PHP e o Jekyll ser algo feito em Ruby. Mas no final 
 das contas é tudo tão abstraído pelo Jekyll que eu nem noto sua presença. E se a tecnologia está aí para faciliatar 
-as nossas vidas, por que não usá-la.
+as nossas vidas, por que não usá-la?
 
 Usar esta plataforma para blogar agregou muitas vangaens que normalmente não estariam disponíveis sem algum trabalho
 em outras plataformas(configurar hospedagem, base de dados, backup etc...). Tá certo que no início deu um pouco de 
