@@ -147,7 +147,7 @@ Ao criar no Github um repositório cujo nome siga o seguinte formato: **seu_nome
 hospedado nele pode ser acessado pela URL correspondente **seu_nome_de_usuario_do_github.github.com** (Dã).
 
 Mas também é possível que você aponte o seu DNS para este repositório do Github pages, bastando criar na raiz do 
-repositório um arquivo chamado "**CNAME**" contendo o domínio pelo qual você quer resposnder. E, claro, apontar o seu
+repositório um arquivo chamado "**CNAME**" contendo o domínio pelo qual você quer responder. E, claro, apontar o seu
 DNS para o IP **204.232.175.78**, como pode ser observado na 
 [documentação](https://help.github.com/articles/setting-up-a-custom-domain-with-pages) do Github Pages.
 
