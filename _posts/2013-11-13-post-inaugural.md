@@ -99,7 +99,7 @@ site pessoal. Mas eu nunca conseguia me decidir pois eu ainda não tinha escolhi
 Não adiantava escolher um template legal do Drupal, se eu fosse usar, por exemplo, o Wordpress. E vice-versa.
 
 Só então quando eu decidi dar uma chance ao Github Pages(descrito logo abaixo) que comecei a procurar templates em
-HTML puro. Me deparei com o site do [Luiz Zuno](http://luiszuno.com). Lá entrei muitos templates animais, e acabei
+HTML puro. Me deparei com o site do [Luiz Zuno](http://luiszuno.com). Lá encontrei muitos templates animais, e acabei
 optando pelo template [Left](http://luiszuno.com/blog/downloads/left-template).
 
 Com algumas adaptações de layout, e re-organização de algumas páginas, consegui deixar tudo do jeito que eu queria.
