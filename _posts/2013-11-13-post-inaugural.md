@@ -198,4 +198,4 @@ trabalho para configurar o template do jeito que eu queria, mas isso foi uma vez
 mais, o backup fica por conta do Github. Eu não tenho que me preocupar com muita coisa.
 
 Fique a vontade para visitar o [repositório](https://github.com/leonardothibes/leonardothibes.github.com) 
-que hospeda este site para ver como ele foi feito, fazer um fork e criar seu  próprio blog ;-)
+que hospeda este site e ver como ele foi feito, fazer um fork ou criar seu próprio blog ;-)
