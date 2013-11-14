@@ -115,7 +115,7 @@ e hospedavam seus códigos e pacotes .tar.gz para download no [Source Forge](htt
 Bem, alguns ainda são assim.
 
 Nos últimos anos notei uma migração em massa de boa parte dos projetos que uso no dia-a-dia para repositórios GIT,
-hospedados no [Github](http://github.com), e passaram a usar o Github Pages como solução para hospedar seus sites.
+hospedados no [Github](http://github.com). E consequentemente passaram a usar o Github Pages como solução para hospedar seus sites.
 
 Também notei que muitos programadores passaram a usar esta mesma plataforma como soluções para seus blogs pessoais.
 Resolvi então estudar como eles o faziam e fazer o mesmo.
