@@ -143,32 +143,177 @@ acesso via web que também funciona bem.
 no meu trabalho, e também é nele que eu guardo as referências para escrever os posts do
 blog.
 
-Framework: Zend Framework
-=========================
-
 Testes Unitários: PHPUnit
 =========================
+
+Não faz muito tempo que comecei a usar testes unitários em meus códigos. Nunca me interessei
+pelo assunto até assistir uma palestra do [Rafael Dohms](http://doh.ms). É, o cara realmente
+conseguiu me convencer com aquela palestra de que testes são importantes.
+
+Hoje em dia eu nem me imagino mais programando algo em PHP(ou qualquer outra linguagem) sem
+os testes. O PHPUnit é a ferramenta certa para essa tarefa. É leve, de fácil instalação, 
+tem uma curva de aprendizado muito pequena e é grátis. Não saia de casa sem ele.
 
 Testes Funcionais: Selenium
 ===========================
 
+Juntamente com os testes unitários, outro costume que adquiri nos últimos anos foi o de
+fazer testes funcionais. E o [Selenium](http://www.seleniumhq.org) é uma ferramenta que 
+me ajuda muito neste processo.
+
+O Selenium não é algo específico ao mundo PHP. Na verdade dá pra usá-lo para testar 
+qualquer tipo de interface web. Só não sei se funciona com Flash, mas isso é algo que está
+morrendo de qualquer jeito, então pra que se importar?
+
+O Selenium também é uma ferramenta leve e de fácil instalação. Ele roda como uma extensão
+no browser, e você pode encontrá-lo para download [aqui](http://www.seleniumhq.org/download/).
+
 Testes de Performance: JMeter
 =============================
 
-Dependências: Composer
-======================
+Ainda na linha dos testes, outra ferramenta da qual eu gostaria de falar é o 
+[JMeter](http://jmeter.apache.org), que eu uso para testes de performance de sistemas web
+e webservices.
+
+Esta é mais uma daquelas ferramentas que independe de linguagem para ser usada. O JMeter tem
+como função, entre outras coisas, simular navegação entre URLs, fazer GETs e POSTs em 
+formulários e webservices/APIs a fim de testar as entradas de dados e a performance.
+
+Esta é mais uma ferramenta da qual não abro mão na hora de programar para web, e tem um lugar
+cativo na minha caixa de ferramentas como programador.
+
+Profiling: Xdebug + KcacheGrind/Webgrind
+======================================
+
+Outro item indispensável no meu arsenal de testes é o [Xdebug](http://xdebug.org), 
+que é uma extensão do PHP, facilmente instalável nas distros Linux atuais e no Mac.
+
+O simples fato de estar instalada e ativada já melhor o seu 
+[var_dump](http://php.net/manual/pt_BR/function.var-dump.php). Isso por si só já é uma bela
+vantagem.
+
+Outra vantagem do XDebug é que, através dele, é possível de dentro do Eclipse(ou sua IDE
+favorita) fazer debug linha a linha do seu código.
+
+Ainda não está convencido? Então agora vai a feature matadora do Xdebug, o profiling.
+Se ativado o recurso de profiling, o seu PHP gera relatórios de performance sobre o seu
+sistema. Relatórios com gráficos. Mas para ler os relatórios você vai precisar de um programa
+chamado [KCachegrind](http://kcachegrind.sourceforge.net/html/Home.html).
+
+O KCachegrind é facilmente instalável em qualquer distro Linux atual, mas se você estiver
+no Mac vai passar um pouco de trabalho. Para estes casos, também é possível instalar o 
+[Webgrind](http://code.google.com/p/webgrind/), que é uma ferramente web típica. Descompacte
+em alguma pasta que seu servidor web enxergue, configure e pronto, pode sair usando.
 
 Padrão de Código: Code Sniffer
 ==============================
 
-Profiling: Xdebug + KcacheGrind/Mgrind
-======================================
+O [Code Sniffer](http://www.squizlabs.com/php-codesniffer) é um sonho de consumo que posso 
+me dar ao luxo de usar em pouquíssimos projetos. Apenas os pessoais.
+
+O Code Sniffer é uma ferramenta que lê o código PHP e garante que o mesmo siga um determinado
+padrão de identação. Ele já vem com alguns padrões já pré-configurados, mas também é possível
+criar padrões próprios.
+
+Eu gostaria muito de poder implementar isto aqui na empresa onde trabalho, mas infelizmente
+isso geraria muito mimimi.
+
+Dependências: Composer
+======================
+
+O [Composer](http://getcomposer.org) é um gerenciador de dependências. Basicamente, ele 
+controle as bibliotecas de terceiros do seu projeto, bastando para isso que seja criado um
+arquivo _composer.json_ na raiz do projeto contendo a lista de dependências(em formato json,
+é claro).
+
+É uma ferramenta que só conheci recentemente, mas seu uso é tão simples e natural que sempre
+me pergunto como não usava isso antes. Quebra um galhão no dia-a-dia.
+
+Use-a, eu recomendo.
 
 Automação: Phing - Um anel para todos dominar
 =============================================
 
+Todo projeto sempre demanda certas atividades repetitivas e sujeitas a erros humanos, mas
+importantes, como: criar um pasta de log com permissão de escrita, limpar algum cache,
+cirar/apagar determinadas estruturas de diretórios e o próprio deploy.
+
+Todas estas são tarefas que ninguém gosta de fazer, muito menos de documentar como 
+executá-las. Então por que não automatizar tudo? E é aí que entra o 
+[Phing](http://www.phing.info) em minha rotina.
+
+O Phing é uma ferramenta de automação, e para usá-la basta criar um arquivo chamado
+_build.xml_ na raiz do seu projeto. Para programar as funções nele usa-se uma linguagem
+baseada em XML.
+
+Além de automatizar tarefas, o phing também pode ser usado para executar algumas das 
+ferramentas descritas anteriormente neste post, como o code-sniffer por exemplo. Eu
+nunca me lembro de cabeça todos os parâmetros que compõem aquele comando do code-sniffer
+para validar o código.
+
+Quando quero, pode exemplo, validar o código de um projeto usando o phing eu apenas
+uso o comando abaixo na raiz do projeto:
+
+{% highlight bash %}
+phing code-sniffer
+{% endhighlight %}
+
+Mas, é claro, que a função _code-sniffer_ deve ser programada no _build.xml_, mas isso é 
+assunto para um artigo a parte.
+
 VMs: Vagrant + Puppet
 =====================
+
+Por anos eu passei por problemas de configuração de ambiente. Em todas
+as empresas pelas quais passei. Mas estes problemas nunca me aconteceram em servidores
+de produção, mesmo porque ambientes de produção costumam ser bem documentados (ao menos, 
+quando estão sob a minha responsabilidade).
+
+Os problemas aos quais me refiro são em ambiente de desenvolvimento mesmo. Sempre que eu 
+precisava implementar determinado recurso em um sistema que dependesse de algum utilitário, 
+ou de uma extensão do PHP, tinha que ficar me preocupando se os outros programadores iriam 
+ter tal dependência instalada, ou mesmo se teriam condições de instalar por conta própria.
+
+Era um inferno, pois em alguns casos os outros programadores usavam Windows e simplesmente
+não tinha determinado extensão disponível para aquela versão do PHP. E eu mesmo ia de 
+máquina em máquina instalando tudo para meus colegas, ou então simplesmente dava um 
+jeito de implementar tal recurso sem a instalação de nada. 
+
+Pior ainda, tinha mais uma variação desta situação, quando meus sistemas tinham
+que se adaptar ao ambiente onde estavam rodando. Por exemplo, se eu fosse usar a extensão
+`apc` para fazer cache de queryes de banco de dados. Eu fazia o sistema testar a presença 
+da extensão e usá-la somente se estivesse instalada. Resultado? Um sistema que rodava
+maravilhosamente rápido na minha máquina mas, nas máquinas de fulano e beltrano rodava
+igual uma carroça sendo puxada por uma égua manca. Fora a complexidade desnecessária
+no código.
+
+Todos os meus problemas acabaram quando comecei a usar o Vagrant(e o puppet na carona).
+
+O [Vagrant](http://www.vagrantup.com) é um software de linha de comando que cria e 
+gerencia VMs padronizadas. Assim que uma VM sobe na máquina do usuário(ou programador), 
+roda automaticamente um script do [Puppet](http://puppetlabs.com) que instalda as dependências
+do projeto.
+
+Além de acabar com o velho choramingo de "não posso mexer em tal tela pois só roda na 
+máquina do Léo(este eu aqui)", me tirou a dor de cabeça de montar ambientes de 
+desenvolvimento para mim próprio também.
+
+E usá-lo também acaba com a velha desculpa de "na minha máquina roda".
+
+Estas duas ferramentas juntas 
+[Vagrant](http://www.vagrantup.com) + [Puppet](http://puppetlabs.com) me fizeram voltar a 
+ter boas noites de sono pois os códigos que produzo passaram a não mais ter de pisar em ovos
+e ficar testando a todo momento onde estão rodando. Se, por exemplo, eu precisar usar uma 
+extensão como `apc` ou `memcached`, posso chamar sem medo os seus comandos em qualquer 
+parte do código. Isto quer dizer menos código, e menos código quer dizer mais estabilidade
+e menos manutenção.
+
+Outra vantagem que o uso destas ferramentas me agregou foi o de, sempre que alguém vem
+choramingar na minha mesa(ou mensagem isntantânea) "Léo, tá dando um erro aqui", eu sempre
+respondo `svn update && vagrant reload` sem nem ler o erro. Em 99% dos casos isso resolve.
+
+PS: O comando acima atualiza o projeto com a última versão do SVN e então refaz a máquina
+virtual do Vagrant.
 
 Browser: Firefox
 ================
@@ -183,35 +328,24 @@ nas últimas versões. Mas acabo usando ele principalmente por causa da extensã
 extensão é praticamente inviável, ao menos para mim. Fiquei dependente dela.
 
 Eu também uso no Firefox outras extensões bem úteis que valem a pena ser citadas. Segue
-a lista completa.
+a lista completa:
 
-* Firebug: debugs em JavaScript, CSS e HTML;
-* YSlow: uma extensão para a extensão Firebug. Ela avalia a performance geral do seu site
-         e sugere alterações pontuais para fazer carregar mais rápido.
-* Webdeveloper: uma extensão imprescindível para qualquer programador web. Ela tem muitas
-                utilidades, na verdade. A que eu mais uso é a de apagar os cookies de 
-                sessão, quando estou querendo testar autenticação de usuários, e a de
-                desabilitar o JavaScript para testar os layouts dos sites.
-* Evernote Web Clipper: salva a página corrente(ou somente sua url) em uma nota do 
-                        Evernote. Muito útil quando se faz pesquisa.
-* Selenium IDE: interface gráfica do Selenium para construir e rodar testes de interface.
-* PdfIT: transforma a página atual em PNG ou PDF. O legal é que pega toda a página, e não
-         só a área visível. Muito útil para se fazer manuais de sistemas.
+**Firebug**: debugs em JavaScript, CSS e HTML;
 
+**YSlow**: uma extensão para a extensão Firebug. Ela avalia a performance geral do seu site
+           e sugere alterações pontuais para fazer carregar mais rápido.
 
+**Webdeveloper**: uma extensão imprescindível para qualquer programador web. Ela tem muitas
+                  utilidades, na verdade. A que eu mais uso é a de apagar os cookies de 
+                  sessão, quando estou querendo testar autenticação de usuários, e a de
+                  desabilitar o JavaScript para testar os layouts dos sites.
 
+**Evernote Web Clipper**: salva a página corrente(ou somente sua url) em uma nota do 
+                          Evernote. Muito útil quando se faz pesquisa.
 
+**Selenium IDE**: interface gráfica do Selenium para construir e rodar testes de interface.
 
+**PdfIT**: transforma a página atual em PNG ou PDF. O legal é que pega toda a página, e não
+           só a área visível. Muito útil para se fazer manuais de sistemas.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Até mais!
