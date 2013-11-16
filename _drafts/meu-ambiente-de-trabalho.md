@@ -348,4 +348,14 @@ a lista completa:
 **PdfIT**: transforma a página atual em PNG ou PDF. O legal é que pega toda a página, e não
            só a área visível. Muito útil para se fazer manuais de sistemas.
 
+CONCLUSÃO
+=========
+
+Espero ter apresentado uma lista de ferramentas úteis ao trabalho de todo programador
+PHP. Se você já não usa todas elas, sugiro que leia as documentações de cada uma e 
+também que pesquisa no Google sobre as mesmas.
+
+Garanto que o uso destas ferramentas engrandecerá sua caixa de ferramentas como profissional,
+o que agregará valor ao seu código e ao seu trabalho como um todo.
+
 Até mais!
