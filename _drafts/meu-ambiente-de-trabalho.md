@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : Meu Ambiente de Trabalho
-categories: [ambiente, jekyll, git, github, mac, linux, ubuntu, mint]
+categories: [ambiente, ide, ferramentas, git, github, mac, linux, ubuntu, mint]
 intro     : Neste post eu explico um pouco sobre as ferramentas que uso para desenvolver
             meu trabalho diário como programdor PHP.
 ---
