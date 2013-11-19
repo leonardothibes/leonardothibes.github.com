@@ -9,6 +9,7 @@ markdown : maruku
 permalink: /:title.html
 paginate : 5
 send-mail: http://leonardothibes.com/send-mail.php
+analytics: UA-45870922-1
 
 author:
     me:
