@@ -156,8 +156,8 @@ tipo. Na verdade a maior vantagem dele, para mim, é o fato de reunir em um
 único software a possibilidade de conectar em qualquer dos bancos mais usados
 atualmente no mercado: MySQL(e MariaDB), PostgreSQL, Oracle, MS SQL Server e SQLIte.
 
-Como eu disse anteriormente, eu raramente mexo com bases que não são MySQL, então
-ter um programa para cada banco é meio confuso pra mim, então prefiro ter tudo em um só.
+Como disse anteriormente, eu raramente mexo com bases que não são MySQL, então
+ter um programa para cada banco é meio confuso pra mim, prefiro ter tudo em um só.
 
 Mas [MySQL Workbench](http://www.mysql.com/products/workbench/) ainda é o meu favorito.
 Uso-o sempre que possível.
