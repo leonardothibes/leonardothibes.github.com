@@ -150,9 +150,9 @@ uma ferramenta honesta para executar querys e scripts SQL e um data modeler
 matador.
 
 Já para as raras ocasiões em que eu preciso dar manutenção em alguma sistema
-que use um banco diferente, gosto de usar o [Navicat](http://www.navicat.com). Já
-o Navicat, para mim é pouco mais que o mínimo aceitável para um software desta
-categoria. Na verdade a maior vantagem dele, para mim, é o fato de reunir em um
+que use um banco diferente, gosto de usar o [Navicat](http://www.navicat.com).
+Para o meu caso ele é pouco mais que o mínimo aceitável para um software deste
+tipo. Na verdade a maior vantagem dele, para mim, é o fato de reunir em um
 único software a possibilidade de conectar em qualquer dos bancos mais usados
 atualmente no mercado: MySQL(e MariaDB), PostgreSQL, Oracle, MS SQL Server e SQLIte.
 
