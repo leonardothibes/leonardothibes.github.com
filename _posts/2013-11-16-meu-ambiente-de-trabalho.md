@@ -382,10 +382,11 @@ CONCLUSÃO
 =========
 
 Espero ter apresentado uma lista de ferramentas úteis ao trabalho de todo programador
-PHP. Se você já não usa todas elas, sugiro que leia as documentações de cada uma e 
-também que pesquisa no Google sobre as mesmas.
+PHP. Se você não conhece todas, sugiro que leia as documentações de cada, pesquise no
+Google e veja a opinião de outras pessoas.
 
-Garanto que o uso destas ferramentas engrandecerá sua caixa de ferramentas como profissional,
-o que agregará valor ao seu código e ao seu trabalho como um todo.
+Ter tais ferramentas em seu arsenal engrandecerá a qualidade do seu trabalho, 
+assim como aconteceu comigo.
+
 
 Até mais!
