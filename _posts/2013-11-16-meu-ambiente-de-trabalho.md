@@ -132,6 +132,36 @@ O TextMate também tem algo mais a seu favor, no meu fluxo de trabalho, que é o
 preview de Markdown. Como os posts deste blog são escritos nesta linguagem, usar o
 TextMate para escrever os posts torna tudo mais prático.
 
+SQL: MySQL Workbench + Navicat
+==============================
+
+Confesso que no meu atual emprego eu não tenho que mexer muito com SQL, pois aqui quem 
+faz isso são os DBAs. Mas vez ou outra eu acabo precisando mexer com SQL para algum freela
+ou projeto open source.
+
+Tanto no Linux quanto no Mac a minha escolha número um é sempre o 
+[MySQL Workbench](http://www.mysql.com/products/workbench/), pois a
+esmagora maioria dos sistemas com os quais entro em contato usam o 
+MySQL como banco de dados.
+
+O [MySQL Workbench](http://www.mysql.com/products/workbench/) reune o que,
+para mim, é importante em uma interface de administração de banco de dados:
+uma ferramenta honesta para executar querys e scripts SQL e um data modeler
+matador.
+
+Já para as raras ocasiões em que eu preciso dar manutenção em alguma sistema
+que use um banco diferente, gosto de usar o [Navicat](http://www.navicat.com). Já
+o Navicat, para mim é pouco mais que o mínimo aceitável para um software desta
+categoria. Na verdade a maior vantagem dele, para mim, é o fato de reunir em um
+único software a possibilidade de conectar em qualquer dos bancos mais usados
+atualmente no mercado: MySQL(e MariaDB), PostgreSQL, Oracle, MS SQL Server e SQLIte.
+
+Como eu disse anteriormente, eu raramente mexo com bases que não são MySQL, então
+ter um programa para cada banco é meio confuso pra mim, então prefiro ter tudo em um só.
+
+Mas [MySQL Workbench](http://www.mysql.com/products/workbench/) ainda é o meu favorito.
+Uso-o sempre que possível.
+
 Referências: Evernote
 =====================
 
