@@ -388,5 +388,4 @@ Google e veja a opinião de outras pessoas.
 Ter tais ferramentas em seu arsenal engrandecerá a qualidade do seu trabalho, 
 assim como aconteceu comigo.
 
-
 Até mais!
