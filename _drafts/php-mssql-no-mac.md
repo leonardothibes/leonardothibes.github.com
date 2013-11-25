@@ -22,7 +22,7 @@ Se o retorno do comando for a versão do compilador, ao invés de uma mensagem d
 para os próximos passos normalmente.
 
 Caso o comando acima tenha retornado um erro - algo como "command not found" ou uma mensagem parecida -
-então execure os procedimentos descritos [neste post](/como-ativar-o-gcc-git-e-seus-amigos-no-terminal-do-mac.html)
+então execure os procedimentos descritos [neste post](/como-ativar-o-gcc-git-e-seus-amigos-no-mac.html)
 para tornar disponível o compilador C. Após isto, siga com os próximos passos da instalação.
 
 O Resultado do **phpinfo** deverá ser algo como a imgem abaixo:
