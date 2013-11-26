@@ -1,3 +1,3 @@
 #!/bin/bash
 
-jekyll serve -w --drafts
+clear ; jekyll serve -w --drafts
