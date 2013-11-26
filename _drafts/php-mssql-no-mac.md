@@ -25,5 +25,8 @@ Caso o comando acima tenha retornado um erro - algo como "command not found" ou 
 então execure os procedimentos descritos [neste post](/como-ativar-o-gcc-git-e-seus-amigos-no-mac.html)
 para tornar disponível o compilador C. Após isto, siga com os próximos passos da instalação.
 
+Tendo como pré-suposto que o compilador esteja disponível na linha de comando, abra um terminal e siga 
+os passos abaixo.
+
 O Resultado do **phpinfo** deverá ser algo como a imgem abaixo:
 ![phpinfo](/public/img/posts/phpinfo-mssql.png)
