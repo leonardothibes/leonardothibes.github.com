@@ -1,0 +1,7 @@
+---
+layout    : post
+title     : Quando tudo é urgente então nada é urgente
+categories: [desenvolvimento]
+---
+
+
