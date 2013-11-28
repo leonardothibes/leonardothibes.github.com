@@ -46,8 +46,8 @@ projects:
         link: http://documentup.com/leonardothibes/zf
     php-skel:
         name: PHP-Skel
-        desc: Um esqueleto projeto PHP já configurado com testes unitários(PHPUnit), 
-              documentação de classes(phpDocumentor), verificação de padrão de 
+        desc: Um esqueleto projeto PHP já configurado com testes unitários(PHPUnit),
+              documentação de classes(phpDocumentor), verificação de padrão de
               código(Code-Sniffer), integração contínua(Travis-CI) e deploy(Phing).
               Compatível com PHP 5.3/5.4/5.5.
         link: http://documentup.com/leonardothibes/php-skel
@@ -149,4 +149,3 @@ sites-we-watch:
     - url: "http://happyhourtech.com"
     - url: "http://tableless.com.br"
     - url: "http://carreirasolo.org"
-    
