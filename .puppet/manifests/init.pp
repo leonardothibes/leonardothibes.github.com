@@ -60,4 +60,4 @@ class {'apt_get_update': stage => preinstall}
 
 include env
 include vim
-#include jekyll
+include jekyll
