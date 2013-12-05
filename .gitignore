@@ -1,5 +1,11 @@
 _site/*
 .settings/*
+.vagrant/*
 .project
 .buildpath
-.vagrant
+.DS_Store
+.project
+*.db
+*.bak
+*.swp
+*.properties
