@@ -1,0 +1,5 @@
+set encoding=utf-8
+set fileencodings=utf-8
+set tabstop=4
+set nobackup
+set number
