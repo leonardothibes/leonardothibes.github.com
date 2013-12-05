@@ -4,7 +4,6 @@ class env {
 		'wget',
 		'curl',
 		'git',
-		'build-essential',
 	]
 	package {$packages: ensure  => installed}
 	package {"tzdata" : ensure  => latest   }
