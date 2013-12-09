@@ -14,9 +14,7 @@ da instalação da extensão php5-mssql no Mac.
 Primeiramente, é necessário ter o compilador C instalado no Mac. Para descobrir se o seu Mac já tem
 o compilador instalado, execute o comando abaixo:
 
-{% highlight bash %}
-gcc --version
-{% endhighlight %}
+	gcc --version
 
 Se o retorno do comando for a versão do compilador, ao invés de uma mensagem de erro, então siga
 para os próximos passos normalmente.
@@ -36,21 +34,17 @@ ambientes Unix. E por ambientes Unix, entenda-se Linux e Mac como inclusos, ent�
 pode ser usado exatamente da mesma forma no Linux também.
 
 Baixe o código do unixODBC e salve em alguma pasta. O código pode ser encontrado em:
-{% highlight bash %}
-ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.1.tar.gz
-{% endhighlight %}
+
+	ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.1.tar.gz
 
 Após baixar o unixODBC, execute os seguintes comandos:
+	
+	tar -xzvf unixODBC-2.3.0.tar.gz
+	cd unixODBC-2.3.0
 
-{% highlight bash %}
-tar -xzvf unixODBC-2.3.0.tar.gz
-cd unixODBC-2.3.0
-
-./configure --prefix=/usr/local/unixodbc --enable-gui=no
-make
-sudo make install
-{% endhighlight %}
-
+	./configure --prefix=/usr/local/unixodbc --enable-gui=no
+	make
+	sudo make install
 
 
 
