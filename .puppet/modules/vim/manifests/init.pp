@@ -13,7 +13,7 @@ class vim {
 
 	file {"$vimpath/vimrc.local":
 		ensure  => present,
-		source  => "/tmp/vagrant-puppet/modules-0/vim/files/vimrc.local",
+		source  => "puppet:///modules/vim/vimrc.local",
 		owner   => root,
 		group   => root,
 		mode    => 0644,
