@@ -29,6 +29,7 @@ projects-list:
     - id: tbs
     - id: models
     - id: jdaemon
+    - id: puppet-jekyll
     - id: puppet-web
     - id: webconfig
 
@@ -66,6 +67,10 @@ projects:
         desc: Plugin de jQuery para monitorar uma url e acionar um evento.
               Muito útil para fazer notificações no estilo do Facebook.
         link: http://documentup.com/leonardothibes/jDaemon
+    puppet-jekyll:
+        name: Puppet Jekyll
+        desc: Módulo do Puppet para gerenciamento do Jekyll.
+        link: http://forge.puppetlabs.com/leonardothibes/jekyll
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
