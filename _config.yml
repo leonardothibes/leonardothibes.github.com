@@ -30,6 +30,7 @@ projects-list:
     - id: models
     - id: jdaemon
     - id: puppet-jekyll
+    - id: puppet-vim
     - id: puppet-web
     - id: webconfig
 
@@ -71,6 +72,10 @@ projects:
         name: Puppet Jekyll
         desc: Módulo do Puppet para gerenciamento do Jekyll.
         link: http://forge.puppetlabs.com/leonardothibes/jekyll
+    puppet-vim:
+        name: Puppet Vim
+        desc: Módulo do Puppet para gerenciamento do Vim.
+        link: http://forge.puppetlabs.com/leonardothibes/vim
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
