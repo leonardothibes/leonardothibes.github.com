@@ -1,6 +1,6 @@
 ---
 layout    : post
-title     : Como ativar o GCC, o GIT e seus amigos no OSX 10.9 Mavericks
+title     : Como ativar o GCC, o GIT e seus amigos no OSX Mavericks
 categories: [ambiente, mac, git, svn]
 intro     : Neste post explico como instalar/habilitar o compilador GCC, o GIT, o SVN e outras
             ferramentas de linha de comando para desenvolver no Mac.
@@ -53,13 +53,3 @@ Pronto, agora o seu sistema está preparado para ser usado como
 estação de trabalho de desenvolvimento.
 
 Até mais!
-
-
-
-
-
-
-
-
-
-
