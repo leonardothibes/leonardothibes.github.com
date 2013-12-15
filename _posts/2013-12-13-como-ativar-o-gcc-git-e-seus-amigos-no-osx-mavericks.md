@@ -32,6 +32,34 @@ xcode-select --install
 **4: Ao final aparecerá uma janela como esta. Clique em _Done_:**
 ![popup](/public/img/posts/cltools/03.png)
 
-Pronto, agora os utilitários **svn**, **git**, **gcc** e outros estão disponíveis na linha de comando do Mavericks.
+Agora os utilitários **svn**, **git**, **gcc** e outros estão disponíveis 
+na linha de comando do Mavericks.
+
+Como passo opcional, é recomendável a instalação do utilitário **autoconf** pois ele
+é dependência para a compilação de alguns outros utilitários e extensões PHP. E para
+instalá-lo a partir do código fonte, execute os passos abaixo:
+
+{% highlight bash %}
+curl -OL http://ftpmirror.gnu.org/autoconf/autoconf-latest.tar.gz
+tar -xzvf autoconf-latest.tar.gz
+cd autoconf-*
+./configure --prefix=/usr/local
+make
+sudo make install
+{% endhighlight %}
+.
+
+Pronto, agora o seu sistema está preparado para ser usado como 
+estação de trabalho de desenvolvimento.
 
 Até mais!
+
+
+
+
+
+
+
+
+
+
