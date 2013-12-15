@@ -1,7 +1,7 @@
 ---
 layout    : post
 title     : PHP + Xdebug no OSX Mavericks
-categories: [php, mac]
+categories: [ambiente, php, mac]
 intro     : O Xdebug é uma extensão muito útil pois provê as facilidades de profilling
             e debug ao desenvolvimento PHP. Neste post veremos o passo-a-passo para sua
             instalação no Mavericks.
