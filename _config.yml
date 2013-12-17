@@ -32,6 +32,7 @@ projects-list:
     - id: puppet-jekyll
     - id: puppet-vim
     - id: puppet-devtools
+    - id: puppet-wget
     - id: puppet-web
     - id: webconfig
 
@@ -81,6 +82,10 @@ projects:
         name: Puppet Devtools
         desc: Módulo do Puppet para instalação de ferramentas de desenvolvimento.
         link: http://forge.puppetlabs.com/leonardothibes/devtools
+    puppet-wget:
+        name: Puppet Wget
+        desc: Módulo do Puppet para download de arquivos.
+        link: http://forge.puppetlabs.com/leonardothibes/wget
     puppet-web:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
