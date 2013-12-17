@@ -68,7 +68,7 @@ projects:
     jdaemon:
         name: jDaemon
         desc: Plugin de jQuery para monitorar uma url e acionar um evento.
-              Muito útil para fazer notificações no estilo do Facebook.
+              Muito útil para fazer notificações no estilo Facebook.
         link: http://documentup.com/leonardothibes/jDaemon
     puppet-jekyll:
         name: Puppet Jekyll
