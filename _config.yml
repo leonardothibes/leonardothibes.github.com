@@ -29,12 +29,13 @@ projects-list:
     - id: tbs
     - id: models
     - id: jdaemon
+    - id: webconfig
     - id: puppet-jekyll
+    - id: puppet-zf
     - id: puppet-vim
     - id: puppet-devtools
     - id: puppet-wget
     - id: puppet-web
-    - id: webconfig
 
 projects:
     fakeseguro:
@@ -70,10 +71,19 @@ projects:
         desc: Plugin de jQuery para monitorar uma url e acionar um evento.
               Muito útil para fazer notificações no estilo Facebook.
         link: http://documentup.com/leonardothibes/jDaemon
+    webconfig:
+        name: Webconfig
+        desc: Utilitário de linha de comando para gerenciar o Apache sem ter que 
+              editar os arquivos de configuração manualmente.
+        link: http://documentup.com/leonardothibes/webconfig
     puppet-jekyll:
         name: Puppet Jekyll
         desc: Módulo do Puppet para gerenciamento do Jekyll.
         link: http://forge.puppetlabs.com/leonardothibes/jekyll
+    puppet-zf:
+        name: Puppet Zf
+        desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x
+        link: http://forge.puppetlabs.com/leonardothibes/zf
     puppet-vim:
         name: Puppet Vim
         desc: Módulo do Puppet para gerenciamento do Vim.
@@ -90,11 +100,6 @@ projects:
         name: Puppet Web
         desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
         link: http://documentup.com/leonardothibes/puppet-web
-    webconfig:
-        name: Webconfig
-        desc: Utilitário de linha de comando para gerenciar o Apache sem ter que 
-              editar os arquivos de configuração manualmente.
-        link: http://documentup.com/leonardothibes/webconfig
 
 portfolio-list:
     - id: telesena
