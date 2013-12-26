@@ -31,9 +31,10 @@ projects-list:
     - id: jdaemon
     - id: webconfig
     - id: puppet-jekyll
-    - id: puppet-zf
+    - id: puppet-env
     - id: puppet-vim
     - id: puppet-devtools
+    - id: puppet-zf
     - id: puppet-wget
     - id: puppet-web
 
@@ -80,10 +81,10 @@ projects:
         name: Puppet Jekyll
         desc: Módulo do Puppet para gerenciamento do Jekyll.
         link: http://forge.puppetlabs.com/leonardothibes/jekyll
-    puppet-zf:
-        name: Puppet Zf
-        desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x
-        link: http://forge.puppetlabs.com/leonardothibes/zf
+    puppet-env:
+            name: Puppet Env
+            desc: Módulo do Puppet para gerenciamento do ambiente shell.
+            link: http://forge.puppetlabs.com/leonardothibes/env
     puppet-vim:
         name: Puppet Vim
         desc: Módulo do Puppet para gerenciamento do Vim.
@@ -92,6 +93,10 @@ projects:
         name: Puppet Devtools
         desc: Módulo do Puppet para instalação de ferramentas de desenvolvimento.
         link: http://forge.puppetlabs.com/leonardothibes/devtools
+    puppet-zf:
+            name: Puppet Zf
+            desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x
+            link: http://forge.puppetlabs.com/leonardothibes/zf
     puppet-wget:
         name: Puppet Wget
         desc: Módulo do Puppet para download de arquivos.
