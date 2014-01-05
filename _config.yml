@@ -34,6 +34,7 @@ projects-list:
     - id: puppet-env
     - id: puppet-vim
     - id: puppet-devtools
+    - id: puppet-php
     - id: puppet-zf
     - id: puppet-wget
     - id: puppet-web
@@ -93,6 +94,10 @@ projects:
         name: Puppet Devtools
         desc: Módulo do Puppet para instalação de ferramentas de desenvolvimento.
         link: http://forge.puppetlabs.com/leonardothibes/devtools
+    puppet-php:
+                name: Puppet PHP
+                desc: Módulo do Puppet para gerenciamento do PHP
+                link: http://forge.puppetlabs.com/leonardothibes/php
     puppet-zf:
             name: Puppet Zf
             desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x
