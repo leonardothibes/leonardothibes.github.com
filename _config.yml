@@ -105,7 +105,7 @@ projects:
                 link: http://forge.puppetlabs.com/leonardothibes/php
     puppet-zf:
             name: Puppet Zf
-            desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x
+            desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x e 2.x.x.
             link: http://forge.puppetlabs.com/leonardothibes/zf
     puppet-wget:
         name: Puppet Wget
