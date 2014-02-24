@@ -125,9 +125,7 @@ portfolio-list:
     - id: telesena
     - id: lidercap
     - id: bau
-    - id: jacotei
     - id: epoc-events
-    - id: fmc-arquitetura
 
 portfolio:
     telesena:
