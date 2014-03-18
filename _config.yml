@@ -37,9 +37,9 @@ projects-list:
     - id: puppet-devtools
     - id: puppet-php
     - id: puppet-zf
-    - id: puppet-wget
     - id: puppet-crontab
-    - id: puppet-web
+    - id: puppet-wget
+    - id: puppet-util
 
 projects:
     fakeseguro:
@@ -108,18 +108,18 @@ projects:
             name: Puppet Zf
             desc: Módulo do Puppet para gerenciamento do Zend Framework 1.x.x e 2.x.x.
             link: http://forge.puppetlabs.com/leonardothibes/zf
-    puppet-wget:
-        name: Puppet Wget
-        desc: Módulo do Puppet para download de arquivos.
-        link: http://forge.puppetlabs.com/leonardothibes/wget
     puppet-crontab:
         name: Puppet Crontab
         desc: Módulo do Puppet para gerenciar o Crontab do Linux.
         link: http://forge.puppetlabs.com/leonardothibes/crontab
-    puppet-web:
-        name: Puppet Web
-        desc: Servidor web compatível tanto com RedHat/CentOS quanto com Debian/Ubuntu.
-        link: http://documentup.com/leonardothibes/puppet-web
+    puppet-wget:
+        name: Puppet Wget
+        desc: Módulo do Puppet para download de arquivos.
+        link: http://forge.puppetlabs.com/leonardothibes/wget
+    puppet-util:
+        name: Puppet Util
+        desc: Módulo do Puppet contendo uma biblioteca de utilitários para serem usados em outros módulos.
+        link: http://forge.puppetlabs.com/leonardothibes/util
 
 portfolio-list:
     - id: telesena
