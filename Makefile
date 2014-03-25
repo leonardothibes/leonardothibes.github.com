@@ -14,8 +14,6 @@ server: .clear
 	@jekyll serve -w
 
 deploy: .clear
-	@git add .
-	@git commit -m 'Deploing site...' .
 	@git push origin master
 
 clean:
