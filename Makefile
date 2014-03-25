@@ -7,6 +7,12 @@ drafts: .clear
 vm: .clear
 	@vagrant up
 
+suspend:
+	@vagrant suspend
+
+halt:
+	@vagrant halt
+
 provision: .clear
 	@vagrant provision
 
@@ -36,6 +42,8 @@ help: .clear
 	@echo "  main(default)     Renderiza o site"
 	@echo "  drafts            Renderiza os rascunhos"
 	@echo "  vm                Monta uma VM para desenvolvimento(requer Vagrant+VirtualBox)"
+	@echo "  suspend           suspende a execussao da VM de desenvolvimento"
+	@echo "  halt              desliga a execussao da VM de desenvolvimento"
 	@echo "  provision         Refaz a VM baseado na receita do Puppet"
 	@echo "  ssh               Faz SSH na VM de desenvolvimento"
 	@echo "  server            Executa o servidor Jekyll para rodar o site"
