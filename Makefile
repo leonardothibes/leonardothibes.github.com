@@ -41,7 +41,7 @@ help: .clear
 	@echo ""
 	@echo "  main(default)     Compila o site"
 	@echo "  drafts            Compila os rascunhos"
-	@echo "  vm                Monta uma VM para desenvolvimento(requer Vagrant+VirtualBox)"
+	@echo "  vm                Monta uma VM de desenvolvimento(requer Vagrant+VirtualBox)"
 	@echo "  suspend           suspende a execussao da VM de desenvolvimento"
 	@echo "  halt              desliga a execussao da VM de desenvolvimento"
 	@echo "  provision         Refaz a VM baseado na receita do Puppet"
