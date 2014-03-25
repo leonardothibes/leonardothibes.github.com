@@ -10,6 +10,9 @@ vm: .clear
 provision: .clear
 	@vagrant provision
 
+ssh:
+	@vagrant ssh
+
 server: .clear
 	@jekyll serve -w
 
@@ -34,6 +37,7 @@ help: .clear
 	@echo "  drafts            Renderiza os rascunhos"
 	@echo "  vm                Monta uma VM para desenvolvimento(requer Vagrant+VirtualBox)"
 	@echo "  provision         Refaz a VM baseado na receita do Puppet"
+	@echo "  ssh               Faz SSH na VM de desenvolvimento"
 	@echo "  server            Executa o servidor Jekyll para rodar o site"
 	@echo "  deploy            Publica o blog no Github"
 	@echo "  clean             Limpa os arquivos temporarios gerados pela compilacao"
