@@ -4,21 +4,6 @@ main: .clear
 drafts: .clear
 	@jekyll build --drafts
 
-vm: .clear
-	@vagrant up
-
-suspend:
-	@vagrant suspend
-
-halt:
-	@vagrant halt
-
-provision: .clear
-	@vagrant provision
-
-ssh:
-	@vagrant ssh
-
 server: .clear
 	@jekyll serve -w
 
@@ -29,9 +14,6 @@ clean:
 	@echo "Erasing temporary files..."
 	@rm -Rf _site
 
-destroy:
-	@vagrant destroy
-
 .clear:
 	@clear
 
@@ -40,16 +22,10 @@ help: .clear
 	@echo "Uso: make [options]"
 	@echo ""
 	@echo "  main(default)     Compila o site"
-	@echo "  drafts            Compila os rascunhos"
-	@echo "  vm                Monta uma VM de desenvolvimento(requer Vagrant+VirtualBox)"
-	@echo "  suspend           suspende a execussao da VM de desenvolvimento"
-	@echo "  halt              desliga a execussao da VM de desenvolvimento"
-	@echo "  provision         Refaz a VM baseado na receita do Puppet"
-	@echo "  ssh               Faz SSH na VM de desenvolvimento"
+	@echo "  drafts            Compila o site jumtamente com os rascunhos"
 	@echo "  server            Executa o servidor Jekyll para rodar o site"
 	@echo "  deploy            Publica o blog no Github"
 	@echo "  clean             Limpa os arquivos temporarios gerados pela compilacao"
-	@echo "  destroy           Destroi a VM de desenvolvimento"
 	@echo "  help              Exibe esta mensagem de HELP"
 	@echo ""
 	
