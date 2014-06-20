@@ -39,6 +39,7 @@ projects-list:
     - id: puppet-vim
     - id: puppet-devtools
     - id: puppet-crontab
+    - id: puppets3cmd
     - id: puppet-wget
     - id: puppet-util
 
@@ -117,6 +118,10 @@ projects:
         name: Puppet Crontab
         desc: Módulo do Puppet para gerenciar o Crontab do Linux.
         link: http://forge.puppetlabs.com/leonardothibes/crontab
+    puppet-s3cmd:
+        name: Puppet s3cmd
+        desc: Módulo do Puppet para gerenciar a instalação do s3cmd.
+        link: http://forge.puppetlabs.com/leonardothibes/s3cmd
     puppet-wget:
         name: Puppet Wget
         desc: Módulo do Puppet para download de arquivos.
