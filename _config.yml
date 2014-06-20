@@ -39,7 +39,7 @@ projects-list:
     - id: puppet-vim
     - id: puppet-devtools
     - id: puppet-crontab
-    - id: puppets3cmd
+    - id: puppet-s3cmd
     - id: puppet-wget
     - id: puppet-util
 
