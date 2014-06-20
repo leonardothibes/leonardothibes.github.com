@@ -119,7 +119,7 @@ projects:
         desc: Módulo do Puppet para gerenciar o Crontab do Linux.
         link: http://forge.puppetlabs.com/leonardothibes/crontab
     puppet-s3cmd:
-        name: Puppet s3cmd
+        name: Puppet S3cmd
         desc: Módulo do Puppet para gerenciar a instalação do s3cmd.
         link: http://forge.puppetlabs.com/leonardothibes/s3cmd
     puppet-wget:
