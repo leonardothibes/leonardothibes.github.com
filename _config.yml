@@ -2,14 +2,14 @@ source     : .
 destination: ./_site
 plugins    : ./_plugins
 
-future   : false
-lsi      : false
-pygments : true
-markdown : maruku
-permalink: /:title.html
-paginate : 5
-send-mail: http://leonardothibes.com/send-mail.php
-analytics: UA-45870922-1
+future     : false
+lsi        : false
+highlighter: true
+markdown   : kramdown
+permalink  : /:title.html
+paginate   : 5
+send-mail  : http://leonardothibes.com/send-mail.php
+analytics  : UA-45870922-1
 
 author:
     me:
