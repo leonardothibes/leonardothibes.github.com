@@ -1,8 +1,0 @@
-<ul class="meta">
-	{% if entry.id != nil %}
-		<li>Cliente: {{ site.portfolio[entry.id].client }}</li>
-	{% else %}
-		<li>Cliente: {{ site.portfolio[page.id].client }}&nbsp;</li>
-		<li> - {{ site.portfolio[page.id].cdesc }}</li>
-	{% endif %}
-</ul>
